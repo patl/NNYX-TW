@@ -51,16 +51,16 @@ Then(/^user should see validation (.*) for phone field$/) do |error|
   (@browser.element(:class, 'dialog_email_signup_promo').text.include? error).should == false
 end
 
-When(/^user press on (.*) link$/) do |tou|
+When(/^user press on link (.*)$/) do |tou|
   @browser.element(:class, 'dialog_email_signup_promo').element(:link_text, tou.upcase).click
 end
 
 Then(/^tou pop\-up should be opened$/) do
-  @browser.element(:class, 'termsandconditions').present?.should == true
+  @browser.element(:class, 'termsandconditions').wait_until_present.present?.should == true
 end
 
 Then(/^pp pop\-up should be opened$/) do
-  @browser.element(:id, 'privacy_policycontent').present?.should == true
+  @browser.element(:id, 'privacy_policycontent').wait_until_present.present?.should == true
 end
 
 When(/^user navigates to the wrong link$/) do

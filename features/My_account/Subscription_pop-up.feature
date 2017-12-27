@@ -14,13 +14,20 @@ Feature: Subscribe to email/sms
     #Then user verifies the validation message for mobile phone number
     When user fills mobile number on email pop-up with <mobile>
     #Then user press on language drop-down on email pop-up and selects <language>
-    When user press on <tou> link
+    When user press on link <tou>
     Then  tou pop-up should be opened
-    When user press on <pp> link
+    Then close the  pop-up
+    And click on sign up now button from footer
+    When user fill the email address filed on the pop-up
+    When user press on link <pp>
     Then  pp pop-up should be opened
-    And click on Submit button from the email pop-up
-    Then user should see validation <error> for phone field
+    Then close the  pop-up
+    And click on sign up now button from footer
+    When user fill the email address filed on the pop-up
+    Then check the checkbox Privacy policy on subscription email pop-up
+    #Then user should see validation <error> for phone field
     When user fills mobile number on email pop-up with <mobile1>
+    And click on Submit button from the email pop-up
     Then user verify the thank you pop-up after email subscription
     And close the newsletter pop-up
    # And site should be switched to <language> local

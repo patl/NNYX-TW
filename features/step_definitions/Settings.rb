@@ -19,7 +19,7 @@ require 'win32ole'
 
 Given(/^open the site$/) do
 
-@br = :firefox
+@br = :chrome
 
 #@link = "http://www.nyxcosmetics.com.au"
 if @br == :ie
