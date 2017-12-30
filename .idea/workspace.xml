@@ -139,8 +139,18 @@
           <file leaf-file-name="Settings.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/features/step_definitions/Settings.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="40" column="21" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="40" selection-end-column="21" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="15" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Gemfile">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                  <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -156,10 +166,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="My account - create account.feature" pinned="false" current-in-tab="false">
+          <file leaf-file-name="My account - create account.feature" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/features/My_account/My account - create account.feature">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="94">
+                <state relative-caret-position="136">
                   <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
                   <folding />
                 </state>
@@ -167,7 +177,7 @@
             </entry>
           </file>
           <file leaf-file-name="NonProductPages.feature" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/features/CLP_QV_PDP/NonProductPages.feature">
+            <entry file="file://$PROJECT_DIR$/features/No_Product_Pages/NonProductPages.feature">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="264">
                   <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
@@ -176,20 +186,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="My account - Log in via Social.feature" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/features/My_account/My account - Log in via Social.feature">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Subscription_pop-up.feature" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Subscription_pop-up.feature" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/features/My_account/Subscription_pop-up.feature">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="386">
+                <state relative-caret-position="510">
                   <caret line="30" column="66" lean-forward="true" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
                   <folding />
                 </state>
@@ -217,7 +217,7 @@
             </entry>
           </file>
           <file leaf-file-name="lp.feature" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/features/CLP_QV_PDP/lp.feature">
+            <entry file="file://$PROJECT_DIR$/features/No_Product_Pages/lp.feature">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="439">
                   <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
@@ -253,7 +253,7 @@
           <file leaf-file-name="No_product_pages.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/features/step_definitions/No_product_pages.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="227">
+                <state relative-caret-position="545">
                   <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
                   <folding />
                 </state>
@@ -323,7 +323,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="410" />
     <option name="y" value="-17" />
     <option name="width" value="1936" />
@@ -373,6 +373,12 @@
               <item name="NNYX TW" type="b2602c69:ProjectViewProjectNode" />
               <item name="NNYX TW" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="No_Product_Pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NNYX TW" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NNYX TW" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="step_definitions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -398,9 +404,12 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Armani TW" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ogboi\OneDrive\Documents\GitHub\NNYX TW\features\No_Product_Pages" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ogboi\OneDrive\Documents\GitHub\NYX\features\My_account" />
       <recent name="C:\Users\ogboi\OneDrive\Documents\GitHub\NYX\features\step_definitions" />
@@ -778,7 +787,7 @@
       <workItem from="1513410600879" duration="1993000" />
       <workItem from="1513428583642" duration="4978000" />
       <workItem from="1513520538958" duration="5634000" />
-      <workItem from="1514298164368" duration="4670000" />
+      <workItem from="1514298164368" duration="9999000" />
     </task>
     <servers />
   </component>
@@ -815,7 +824,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149237000" />
+    <option name="totallyTimeSpent" value="154566000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -827,14 +836,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1881663" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1881663" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33473685" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33473685" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967149" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -960,14 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CLP Sorting rules.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1022,22 +1023,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/Settings.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="40" column="21" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="40" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/My_account/My account - create account.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/CLP_QV_PDP/QV.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1062,7 +1047,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/CLP_QV_PDP/lp.feature">
+    <entry file="file://$PROJECT_DIR$/features/No_Product_Pages/lp.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
           <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
@@ -1078,7 +1063,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/CLP_QV_PDP/NonProductPages.feature">
+    <entry file="file://$PROJECT_DIR$/features/No_Product_Pages/NonProductPages.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
@@ -1096,7 +1081,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/No_product_pages.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
+        <state relative-caret-position="545">
           <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding />
         </state>
@@ -1112,8 +1097,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/My_account/Subscription_pop-up.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
+        <state relative-caret-position="510">
           <caret line="30" column="66" lean-forward="true" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/Settings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/My_account/My account - create account.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding />
         </state>
       </provider>

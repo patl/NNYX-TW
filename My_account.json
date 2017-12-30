@@ -1,0 +1,1137 @@
+[
+  {
+    "uri": "features/My_account/My account - Log in via Social.feature",
+    "id": "check-log-in-functionality-via-social",
+    "keyword": "Feature",
+    "name": "Check Log in functionality via social",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "open the site",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16238981708
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "close the newsletter pop-up",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4690157278
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User click on Signin Register link from header",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6520172373
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "User is redirected to My account sign in  page",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 282326600
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-log-in-functionality-via-social;log-in-from-my-acc-popup;;2",
+        "keyword": "Scenario Outline",
+        "name": "Log in from My acc popup",
+        "description": "",
+        "line": 19,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Then ",
+            "name": "he press on Connection button",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 496050915
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Verify validation message for login field",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 288310883
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "he fills login field with ogboiko@gmail.com",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Log_in.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1182036807
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "he fills password field with asdasdasd",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Log_in.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1709904138
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "he press on Connection button",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 162955415
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify that user is logged in and welcome Oleksiy is displayed in header",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Log_in.rb:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5433285124
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "press on Logout",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Settings.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5032410450
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1272689429
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "open the site",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15290087652
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "close the newsletter pop-up",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3258991305
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User click on Signin Register link from header",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4027528849
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "User is redirected to My account sign in  page",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 898387483
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-log-in-functionality-via-social;check-reset-password",
+        "keyword": "Scenario",
+        "name": "Check reset password",
+        "description": "",
+        "line": 21,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Then ",
+            "name": "he press on forgot your password link",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 407503897
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "Reset password popup is displayed",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Log_in.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 290865605
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "he fill field with email",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Log_in.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 621176486
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "press on submit button",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Log_in.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 271837582
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see password reset confirmation message",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 753928866
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "press on close button",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Log_in.rb:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 368257317
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1827296571
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "open the site",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12472559210
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "close the newsletter pop-up",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2956508549
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User click on Signin Register link from header",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3222842167
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "User is redirected to My account sign in  page",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 827307656
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-log-in-functionality-via-social;check-log-in-functionality-for-fb-social.;;2",
+        "keyword": "Scenario Outline",
+        "name": "check log in functionality for FB social.",
+        "description": "",
+        "line": 39,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "user press on FB icon",
+            "line": 39,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3132878412
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "he fills on FB page email ogboiko@gmail.com",
+            "line": 39,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1025987722
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "he fills on FB page pssword ogboiko!123",
+            "line": 39,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 552040924
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "he press on Log In button from FB page",
+            "line": 39,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5279274726
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify that user is logged in and welcome Oleksii is displayed in header",
+            "line": 39,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Log_in.rb:40"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "timed out after 30 seconds, waiting for #<Watir::HTMLElement: located: false; {:class=>\"user_name\"}> to be located. Maybe look in an iframe? (Watir::Exception::UnknownObjectException)\n./features/step_definitions/LORA Common steps/My Account/My_account - Log_in.rb:41:in `/^verify that user is logged in and welcome (.*) is displayed in header$/'\nfeatures/My_account/My account - Log in via Social.feature:39:in `Then verify that user is logged in and welcome Oleksii is displayed in header'\nfeatures/My_account/My account - Log in via Social.feature:34:in `Then verify that user is logged in and welcome <firstname> is displayed in header'",
+              "duration": 30280090448
+            }
+          }
+        ],
+        "after": [
+          {
+            "embeddings": [
+              {
+                "mime_type": "image/png",
+                "data": "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BgAAAABgEgJoAAAAAAAmIYAGAAAAAGASAmgAAAAAACYhgAYAAAAAYBICaAAAAAAAJiGABgAAAABgEgJoAAAAAAAmIYAGAAAAAGASAmgAAAAAACYhgAYAAAAAYBICaAAAAAAAJiGABgAAAABgEgJoAAAAAAAmIYAGAAAAAGASAmgAAAAAACYhgAYAAAAAYBICaAAAAAAAJiGABgAAAABgEgJoAAAAAAAmIYAGAAAAAGASAmgAAAAAACYhgAYAAAAAYBICaAAAAAAAJiGABgAAAABgEgJoAAAAAAAmIYAGAAAAAGASAmgAAAAAACYhgAYAAAAAYBICaAAAAAAAJiGABgAAAABgEgJoAAAAAAAmIYAGAAAAAGASAmgAAAAAACYhgAYAAAAAYBICaAAAAAAAJiGABgAAAABgEgJoAAAAAAAmIYAGAAAAAGASAmgAAAAAACYhgAYAAAAAYBICaAAAAAAAJiGABgAAAABgEgJoAAAAAAAmIYAGAAAAAGASAmgAAAAAACYhgAYAAAAAYBICaAAAAAAAJiGABgAAAABgEgJoAAAAAAAmIYAGAAAAAGASAmgAAAAAACYhgAYAAAAAYBICaAAAAAAAJiGABgAAAABgEgJoAAAAAAAmIYAGAAAAAGASAmgAAAAAACYhgAYAAAAAYBICaAAAAAAAJiGABgAAAABgEgJoAAAAAAAmIYAGAAAAAGASAmgAAAAAACYhgAYAAAAAYBICaAAAAAAAJiGABgAAAABgEgJoAAAAAAAmIYAGAAAAAGASAmgAAAAAACYhgAYAAAAAYBICaAAAAAAAJiGABgAAAABgEgJoAAAAAAAmIYAGAAAAAGASAmgAAAAAACYhgAYAAAAAYBICaAAAAAAAJiGABgAAAABgEgJoAAAAAAAmIYAGAAAAAGASAmgAAAAAACYhgAYAAAAAYBICaAAAAAAAJiGABgAAAABgEgJoAAAAAAAmIYAGAAAAAGASAmgAAAAAACYhgAYAAAAAYBICaAAAAAAAJiGABgAAAABgEgJoAAAAAAAmIYAGAAAAAGASAmgAAAAAACYhgAYAAAAAYBICaAAAAAAAJiGABgAAAABgEgJoAAAAAAAmIYAGAAAAAGASAmgAAAAAACYhgAYAAAAAYBICaAAAAAAAJiGABgAAAABgEgJoAAAAAAAmIYAGAAAAAGASAmgAAAAAACYh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AAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAHCOHwgAADS9JREFUAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAAic2hBwAAAAAA4Nfz559/fn7xjz/++PCtE9AAAAAAANzbJ635i1cEaAAAAAAAHuLD4vx5fR4CNAAAAAAAD7bvzl+sz2OM6ffff/+58wAAAAAA8Ov566+/7vslTkADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAIDE/wEoG9EOBwRi7gAAAABJRU5ErkJggg=="
+              },
+              {
+                "mime_type": "image/png",
+                "data": "ZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUI0QUFBQU9uQ0FJQUFBQk9Kc3dNQUFBZ0FFbEVRVlI0bk96ZDJYTGJTTll1ME13RVFGS1RoNW9lNnp4c1AxTGYvQkUxdEcyTkpBRmtub3VVYUpxa1pFa1c3TEs5VmxkRVN4Q0d4RURLK3JpeEVkdlpjUUFBQUFBQWdBZjk4OWYvUFhXUk5NVTRBQUFBQUFCQUFBMEFBQUFBd0NRRTBBQUFBQUFBVEVJQURRQUFBQURBSkFUUUFBQUFBQUJNUWdBTkFBQUFBTUFrMm04OUFBQUFBT0R6Wm1Yb1NuN1NJbjFNNitnUGZ3QW05NS8vL09mLy9iLy9kL0JIc1owZGYrWFJBUEJWbFZLKzlSQUF2Z3N4aEJEanR4NEZ3TDFPOHZvWlMxMmwyWXVQQklDZjFqOS8vZC8reFAvODV6LzFpNE1adEFBYTRCdWJ6NXEyK2RLR1NNT1lWK3R4ZjNyVHhIblhpbE1BSHFPRTBQZGpQenl0dXZBN0ZXTm9VbWlhbU81K1NaUVFTb2s1bDJFc1BydUVmeWNCTkFEZjNINEF2VW1mcS8wTVdnOW9nRy9zeTlQbmUxZFNpdlFaNFBGaUNGM1hoQjg5ZTQyeGRPMHdhOWRON0dNWlM4a3BwUmhqU3FscFV0ZW14U3pOdWhUOS9nQUE0SE4yMHVlRFUxUkFBM3hqSjBmZGk2em42cWJmbVZKS09UMVc4QUx3TkpmWDZ4ODRlMjFTN3RwMURDWEdWRW9zSmVVY205VG1VcHEyM2V4NEthV1UwZzlsR0grS2VuRDRYbnhTQVQyZmg3WU5JWVNjdzgxTmFKb3duOS8yRVZxdlEvL3hYNGJUVlVDWGtrdkpuM3h1RjJPTUtVYTFiZ0EvcklNdE9CN21XUVFBMzVNeGw3SGVHUjFERERIRzBMWCtmUS9Bb3pSeG5MVmpTakhuWFBJWVl4TkNhVkp6MjNDamxCQmpDQ1dFRUdPSU1jN2FrblBKNVh1SzQwc3AvLzdQRDc2TFFmSWtXemxzaldMankrYXdLY1cyU1UwVHcvVmRBTjAwSWFXd1dvVlN3bXdXdWk2a0ZISU95K1Z0TU4zdmxpYmNQL2puWEpDbGxKS0hBN2VNbEZKQ0xqSEcxTHJPQWFnRTBBRGZqVlUvRG51ZFNRWFF3TStzbERBTS9UQ09OVUp0VXRPMmJmTVNyWTErUEUwS1RTb2h4RkpDREtuRUVtdFNGTXN3ak8xdCtmUEhMS2tHYXJHc1kyaExhTDdoeU9FRmxaeExHVU1vSWFTWW1pOVBTRzlYdUp2RGxvODViR3hpZXY2YlVveHgxcWEyVFNGOHVwRnhERGMzSVlUUTNMMDhWNnRuYitXcFNoNUxQdkQwa2EwNVNobjdrSnFZdkhzQUlJQUcrRTRNWTk1UG53Ritaam5uMVhwZGNrbE5xbVc4WTg3amF0VjFiZGU5VEhlakgwYU1zVzFLaW0wSVl4N0hlcE44aWJHRVVuSWVobldNSVRVeHhsaHVTemhMemptRzBIVXBoTHdhVXZtdTZxQ2hsRnhLQ2FYRTlMRU1PZWN4Zkl4TmM4a2xObC8wWHBISElaUUgvM2xXU2lsREtTazF6L25UTzhhNG1EZjFTYUgxMzRHN2E2bkZ6am5mMWp0dnVuQ3NuL09zd2tjNmtEN0hHRUo5aXlqYk1YbWRUUVlOZ0FBYTRQc3dERC80UTdFQW5xU1VzRnF2U3dueitYeFQ4bHhLNlB1Kzc0Y1lVOXVLUEQ3cTJ0ZzBUWXdoaEtha1hQS1k4eGhLaVNIRkdOdTJLV0VjYzBnaGhsQktIbU1NTVlRWVE0cWxoTkExWlQxNHFBRGZqZTFjdUl3NXBQYTJCbm1uVHJtVUwybUhrc2Yrc2M4c0xUbVBmWHB5MlAweGZlNkhuSFBKcGV6K0FiOWFoZFVxek9kaHNRakxaUmpIY0gwZG1pYk1adlVPa1NkdThmTktLWHZwOHlmeCtrNDhYZklZb29lYUF2enNCTkFBMzRlODlSZk9mTmEwWDNhRGVjNTUySXEwMjdadHZ1RG0wQWVVVXZwK2FOcG1vdlVEUDYxaDZFc3UyK2x6Q0NIR01KdDF1ZVIxdjI2YWhjaWppakdtRkV1SXBaUlVtOUttMUtTMmxGenlXRXFaemJ0Y3hoaHlxTzA1VXExMkxpR1VFRU1zb1UyNWo5MTlSZEJIaXpiZEhlcGN5czF5Q0NFMEtjMW5UUWhodFI3SHZGc2krdkJQZDFZZVkxeXZ4NmFKYlpPR01hL1dEOTc0L3dpYmRkWkhMTzU4KzIrd21MZE4rdVJvOTBPT01UenlDTngzZUxmUFZBaWhoTEN6MTQ4L0wwL2E3bGRXU3RtcFNpNWxpT0hRSnlneFBqOTl6dnR0Tno0enJKekg5SlJhNEZtWE51ZXJTYkZKTVpjU05wRnkyNGJaTEt6WFlSaHVIenk0V0lRUXduSlptN2cvWVd4UFVmS25vWGFNTzhYZE1UVWxsTEIxQVpROGZHR2xPUURmT3dFMHdQZWhiUDJSOHhMcDg5aTJiVW9wYk1MbzFLZ1dCTDRqd3ppbUpoMXM5OXkxM1dxMUdzZnNiYTFLS2VSY1FoaEREQ1hGVzNkZE9QTFloekNtVkRPNzJwWmpxeG4wM2YrM2FlakgzUWpwTm5DTVliVWVoekczVFpyTm11TkY5K1VaOFVhTnMwTUl3eGhXNGNWVysxM29oN3p1UDlubEx6OEMrNkh6dGpIbjYrVy9KWVYvdGxMMmpsSUpwZVFZMDNhWDh5L2JSQWtQZDBBK0tJL2wwYlhBTWNidDUzeWtGRVA0TkZjZmh0dUdHL041S09XMkFmUjhIazVPYm44NlNmbHozb25kTiswMTh0aUhFR3FWZDR4TkNYbDdzYnZqRDhCUFNnQU44TlBKdWNRWTBsMUpja29wcGFhVUhFSVQ3bXFXU3lnaGhCUlQxOTMrcHVqN0lkLzkzYk9aUGd6ajdkTjNRbW5iTnNWNGNOazg1bUVZUWdneHhLN3pTSFRnQlpSY21udnk1ZHVrNXU1dGpTYWxHR3RaYU1tNWhCQnFlV1RUcEUzSDV4aEtpQ1dFK2hhK0ZUREZFRXJ0eFhFZ2w2eFBMaHpHWEFQTlljek5HTnNtdFczYzdoeFZjK3I2M2ovbXNseDlrb3ZWc3R4YTJMc3AwUzNsdG9wMmlncm9COHk2WnBQNjFXM1ZWRDJVRWtLTU1aUVE4bGlhSm03dnk2WmdlVFBzS2NaVzczOGF4andNcFJZYWgxQmlqSnRNdVE0MTd2V1plRmc5d3ZVc2oyT3BMNTk2a0hmTzJxYkErWkhiM1QrYkwzQVVIdVBnL3BmYW8zaTNCY2R6TjNGNFgyTFQ3bWJUTVlhWXdpYTNMVG5FUjcwdjdWY2IzS3lHbk1QSjlxVGFmMlBiOWZWalZ2NXM1WjRkejNtb08zaGZTNU5uQk5BUGRUaUo4ZW45VEFENGxud0lDZkRUaVNubVVyYi9EbXpicGo2d2E5TXhZejZieldlekVNb3dqQ0dFdmg5Q0tIVmkyN2ExZTJoZE51ZmN0czE4Tm10U0dvWWhwYlN6YkFoaHMyeU1ZV3Npd0JlSW45d2FzcTFPVjIyM2tWSklLYVpVdXczVUVLNlVVTVp4eU9NUVk0bTNFMElvTVlSMDl6Q3hFTUxIdkM2bEE4SFRYZGEvTlhzSm9TYTFXMmF6dEttU2JsSzhDekZEQ0tGdFk0cHh6R1cxSHVlenBpYlJ0ZDFFMTMzdE0xalQ1ekdYcTV0K3pLVnQwcXk3RzJxTTYzNGN4aHhEU0NrdVYyTXVwVWx4MWpYeldkT2syd0E5eERDYmZhVmh4eGlHc2ZSRGppRzBiUW9oZEYyS0lmUkRIc2I4cEk5Nll3aGp6bGMzZmIvMXVPUDd6dG9qdC92TnorYXVPckNkOFBlNTd4SUhjOWlZMmhoVFNrMm9SY0V4eE5URTFJYXRxdUg3QXR4OWJiTjdDbk1PTDFYQi9YeDc3N3BsSFBLd3ZtMjRzYW52M3QvTnAyZjk4ZjZrM2xNTkFiNDdLcUFCL3RXdWJ2b0hKdTQwYzN5a0pxV1NtbUc0dlRNenhWalQ1eERDT09ZWTQ2WmZjOU0wd3ppVzhyR1d1YzRmdDdLSkdHTXRwaDV6THVYMmI5RVF3aWJSRGlHa1p2TlhhM3I4bjE0QUQyaFNVOTkyOXQ4RngzRU1kOWtvSVlRWVFvcXh4QmpLYllWem5WanlVR3JQamR2eTZOdDRPc1o0Mi8zNWR1WmF1WGxQM0I5cWY0OWJPZGRTNFk4ek5FMk1NWlpTaGpIWFh3aTM2dytoTmpYTzVaT2E2RnJrZS9EWDN3dUtJY3huemZ5dVJyN3VRTDFtNnU0TVEwNnpwbWxpL2JhT3Z6YndyUi9pbHBMcUw4T1VZZ2xoSE1zdzVxNmtHR0tUMG90VSszWnRxdVhZbTg3YTJ6Wkh2dHdkeVJoakxtWGRqMDFLOTdXZjJkN3hUUVYzSGYvMmJBK2N0U2R0OSt1Y3pWMHhoZjB1SExmWGRpcGJiVXppeXoyZ0lxWW1mcnkzckNraDFtLzN5bmdmbThQdTF4RTNLWTc1V3dmUUQwZ3BwVGFFVUp2TGYvbjZZa29oTlB1cmlxbngrU0xBZDBjQURmQWRlMGI2WExWdDA0WW0zRFhXV0szWFRXcmF0aW1sMUc4M2MyNW56Y013anZmL1JWRnlxUzFGbnpja2dDZHAyM1pjcmZxK244MCt1UkU3NTl3UFEycFM4dXpUajJwdDg5My83aWJHRkVvcE1aUVNTb3h0akUwdGc4NTVEQ0hFV0w4TE1XN0YwSHRxUmZBbTA2c1BUZHRPeWVxSGxqSEdrNk51TTJWYmluSFdOZXQrSEliU3BOdE1zejJhdHR2R2RpdmsyeDRVSWR4MjJIaEt4aGZqYlQrVFRhcGI5bmJ3MmZaN1FIK2loSU1md0R6czRSN1FHdytkdGNkdDkydWV6VjJIUHl5cFRWVHFKekYzSDhNOFA4ZmM3WU1jVTFOeUxtVzhiWUo4T0gxK2d2MGp2SmczSVRUNVpreFBqSGY3cnhEWHh2Z3hmUjVmclBkMFRFMEo0Wk9XSnFsUi9nendQUkpBQTN5dlhpVHFyYVhOWTg3ak1KYVN3cWU5bXpkcTlCeERuSFZkdU8zSUFmQXROVTNxdXJaK2l0YTFYVXF4bERLT1l6OE10LzBrN21sRnlzWW1mUTRobE5ERTFOMldRRGRkS0xua1hFcjlyNVpJSDhpd2NpNnArZVF3Mzk1L3Z4VzYzZmIyK0xTR3Q5NXFVMElZeDl3MnFXbGk2RDgrQWErMlZHNmExRFpmdGQ2emxKRGlKM242WXhZcG9ZUVFINVBxZmdXMS92ckwxL1BBV1h2a2RnK2V6YTl6aUdKcVNva2ZHMS9FR09OMlk1bnRpL1BaN3hKYkQrcE1UYWdQOHl3MUxPMXJCbjFQK3Z6WXpSMU0rZnNocjhOZGk0OFFVb281MXhidHNZUlNTamhldEYrNzN2eFQ1YVU3ZmFmVTVGQnVXM3lrbEtUUEFOOG5BVFRBOStyWnVVcmY5ekdtZHVzdTJicW0rbWZZd1JZWnBlUzJiVy96Z250cWVXS0tlWkQ0QUY5UDEzVXhwblcvWG0wOWhpczF0ZkF3TDFlcitXeW1EanFFa012QkI3K1Vrc2NZYTZlRldFcU1aYXM4T2pheFNmSHVtWVNsbERHSC9WaTJWcm0yVFNwZFdQZmpyR3ZhSnBVU3RwOUFPSTZsYVVxTXNRYk5tOGZvaFJCQ0NjTlFVaXExQ0RxbDJLVFlEN252YzVyVjUrSysvTkY0UU02bFNiRTI0bWpiRkVNWXhzK1BJT2ZTTnJGcFlnaHBObXZLb1hZWlgwRnRBSkppSFVuWUt2Tjlqb2ZPMnVPMlczUG5iM0kyWTR3eE5ua1Rkc2UwcVpuTmVkaXVYUzU1Q09sWnowYmVkUG1JTVpSY3Rxdm1TOGxqWDc4NHZPRGo3UCtEYWhoM0srTHYrc09FSE1MeG9oMkcvS1Q2L2VlNDc4SXFKUS9yQTlPM0YzeXVsTnBjaHZyRnMxY0N3TGZsSFJ6Z1gyMXo2K3QyUGN0bTR2T2twaG1HSWVhUHhVcTE5WE5LS2NiUzkza1l4aHBQRDhOWW8rY1FRcmtMTUlaaEtJZHV4RzVTeW5FY3gxeVhyVlhTN1gxTktBRmVRdHMyVGJNWXgxeEtybTlqS2FWU3luSzFMamt2Vit2RlhBWWRjZzRsN2VRL3RieDEwNDBneHBnMnZUYnVacnp0QkYzbno2V0VzUHNKWmExeVBWcTArOTJLdCt0aDErczhuelgxS1hiMWVZUGJQKzM3UEpzMVRSTnZsc1BkcWtJSW9SL3FBMisvM3VtcjZWN1hwdnA3dG5iQWFKdlBER0MxSHVNOHRrMXFtMUJLV0srL1dSMTBQYzVkbTBwNWdiVDM0YlAyMmUwdVZ3ZlA1bGRTdHA3N0Ywb3VKZFdXMXZ2emxiR3YrZm1UWXVpUHZhVHZTV01mV1BDUm14aHoyV2xrLzhEeEsrWDJNWjdiajVHY1FveXA3TDBQMUIvVWxML2s4ZUR1ZjJIWDV0UUlMZ0MrYjdHZEhYL3JNUUQ4MUI2WkpuODJnTjYvNDdLVWNubzhPN2kyblBPd1ZjaFVHMER2LzJqemZNTHRpVzNUNUp4RGlGM1gxb1I2OHd6RFVrcmYzOGJUZGRrNnBXbWIrbGZyenZ3QUU4bWxMSmVyVUVwTThXaXhlTkt5bDlmckgreE9qaGpqMFR4OUdnQ1ZFUExZcjFKVHc3SVkwenpFZXo4eUxDWGZyUEo5ZDhEOHEzd1hOK0o4RjRQOFR0MCtBVy8vV28wcHBoUmpLcVdVUE96UEVKL1lYRGpuNGFGSStLQzd4L1E5Um96eGVQSEp6QS8zMFc1U1dzeWI2K1h3ak5mcGt5N0l3NjFGVW5QN2lNNDhodjBXMVRIV3RpUUEvQmorK2V2L25ycUlEeElCZmtZcHBkbnNjRFo5OEVjN0U1dm05aSswdG0xQzJHcmxFZVBPMDhCMnB1ek1EekNSRk9OaVBxdFBXUDNXWS9uMlNpbkRXTnBtTzJPS0ljU1lZczdsdGoxdXlaLzJ5ZDFaL043K1MvRHY4ZEJELzBvdVl5NHhwYVlOcVMzajNzZjI5ZG1iajM3SFNLbk41U25QR0x4N1ROOGpsVkw2SWRjYkM2cmE2MlljUzBvaDU3QlRVVDdyVWo5OGpVK0o0cUdqdDFWdmZxajhXZXNNZ0orZTN3UUFBUHlBVWtwUHJYMytnZlZEYWRKdWtXTU16Wmo3K3ZpeUdNdDlyU1pxRVBZMVJnbGY0TDdtRHpzejFYWTlKYWF3OTlDTFVuSjh5c2ZrcWVrZWlyeTNQYXNFZU4yUG02YmsxYWFsU1FoaEhOTnlmZHR0dkhaSzJla1FQWkVZWTBoTjJTbHpMdm0renRjeFBhMjlDUUEvcEorOUl4NEFBUHp3U2luOVVENnRqb3k1aEpKanppR1A1ZTdaWmJ2aDBhRUY0ZC9vNEZPVUQ4eFdDNGNQUjZKUHZzNC9IeXZIRUZQejdBWVV5L1Y0MzNNRm15YUdFRk9LUi9NMnhiaTh2enZIaXp2Y3J1UlE2L0duTmpZQjRFZWxBaG9BQUg1OHc1aGpERjJiN3FvUlk4M0dhaGVPbEpyNjFNRVNTdHc4ZWJDVWZzakRxUHlaNzhJajQrTVNicCt3K2FKaUNDSFZ4M3ZlZmg5ampPa0xINzVYU3JsWmpiTXViZmZpMkRpYU55bkZmc2pyUHIvNERqMHNwaWJFZExDYjl0MGNNYVpXN1RNQWxRQWFBQUIrQ3YyUVN3bGRHNnVtYVVOSVl4aWJKalh0NXUrQ0VrSXNwZFRhNSs4dWZmNHVBcS92WXBEZm4wTmROZTVURHNXMThmN25jSDdHVTU0dStIUmwzWS85a05zbXRVMTk3ZFpxNHpLTVpWaVBYMzZEd3ZNdXlCaGpiTHBTY2luNWt4ajZKWkozQUg0d0FtaUFIMWF0WlBOSExzRGpsWU9QNGZ1QkRHTWVjK3phMUtZUVltaWFKcVdtSmtXbDNCWnZscENITVh5ZEI1ckJTMG1wZlh5RHlTZk4vTERZZEYvaEU0VlNTaitNL1REMWRwNU0xZ3pBWXdpZ0FiNnhZY3p0ZlE5K2VzcEtEa3lOY2RVUDg2NlZRUU04UmdtaDc4Y2Yvb083VXNxNkgvc1kyeWFtR0ZPOExSc3RJWlJTeGh6R1VkTm5lQ3oxN0FEd1diR2RIWC9yTVFBd0pTa0N3T1BFY04ranlRQUFnQkJDK09ldi8zdnFJaXFnQVg1MEtuTUFBQUNBYjBTM0pnQUFBQUFBSmlHQUJnQUFBQUJnRWdKb0FBQUFBQUFtSVlBR0FBQUFBR0FTQW1nQUFBQUFBQ1loZ0FZQUFBQUFZQklDYUFBQUFBQUFKdEhtUEg3ck1RQUFBQUFBOEFOcXowNFczM29NQUFBQUFBRDhnTFRnQUFBQUFBQmdFZ0pvQUFBQUFBQW1JWUFHQUFBQUFHQVNBbWdBQUFBQUFDWWhnQVlBQUFBQVlCSUNhQUFBQUFBQUppR0FCZ0FBQUFCZ0VnSm9BQUFBQUFBbUlZQUdBQUFBQUdBU0FtZ0FBQUFBQUNZaGdBWUFBQUFBWUJJQ2FBQUFBQUFBSmlHQUJnQUFBQUJnRWdKb0FBQUFBQUFtSVlBR0FBQUFBR0FTQW1nQUFBQUFBQ1loZ0FZQUFBQUFZQklDYUFBQUFBQUFKaUdBQmdBQUFBQmdFZ0pvQUFBQUFBQW1JWUFHQUFBQUFHQVNBbWdBQUFBQUFDWWhnQVlBQUFBQVlCSUNhQUFBQUFBQUppR0FCZ0FBQUFCZ0VnSm9BQUFBQUFBbUlZQUdBQUFBQUdBU0FtZ0FBQUFBQUNZaGdBWUFBQUFBWUJJQ2FBQUFBQUFBSmlHQUJnQUFBQUJnRWdKb0FBQUFBQUFtSVlBR0FBQUFBR0FTQW1nQUFBQUFBQ1loZ0FZQUFBQUFZQklDYUFBQUFBQUFKaUdBQmdBQUFBQmdFZ0pvQUFBQUFBQW1JWUFHQUFBQUFHQVNBbWdBQUFBQUFDWWhnQVlBQUFBQVlCSUNhQUFBQUFBQUppR0FCZ0FBQUFCZ0VnSm9BQUFBQUFBbUlZQUdBQUFBQUdBU0FtZ0FBQUFBQUNZaGdBWUFBQUFBWUJJQ2FBQUFBQUFBSmlHQUJnQUFBQUJnRWdKb0FBQUFBQUFtSVlBR0FBQUFBR0FTQW1nQUFBQUFBQ1loZ0FZQUFBQUFZQklDYUFBQUFBQUFKaUdBQmdBQUFBQmdFZ0pvQUFBQUFBQW1JWUFHQUFBQUFHQVNBbWdBQUFBQUFDWWhnQVlBQUFBQVlCSUNhQUFBQUFBQUppR0FCZ0FBQUFCZ0VnSm9BQUFBQUFBbUlZQUdBQUFBQUdBU0FtZ0FBQUFBQUNZaGdBWUFBQUFBWUJJQ2FBQUFBQUFBSmlHQUJnQUFBQUJnRWdKb0FBQUFBQUFtSVlBR0FBQUFBR0FTQW1nQUFBQUFBQ1loZ0FZQUFBQUFZQklDYUFBQUFBQUFKaUdBQmdBQUFBQmdFZ0pvQUFBQUFBQW1JWUFHQUFBQUFHQVNBbWdBQUFBQUFDWWhnQVlBQUFBQVlCSUNhQUFBQUFBQUppR0FCZ0FBQUFCZ0VnSm9BQUFBQUFBbUlZQUdBQUFBQUdBU0FtZ0FBQUFBQUNZaGdBWUFBQUFBWUJJQ2FBQUFBQUFBSmlHQUJnQUFBQUJnRWdKb0FBQUFBQUFtSVlBR0FBQUFBR0FTQW1nQUFBQUFBQ1loZ0FZQUFBQUFZQklDYUFBQUFBQUFKaUdBQmdBQUFBQmdFZ0pvQUFBQUFBQW1JWUFHQUFBQUFHQVNBbWdBQUFBQUFDWWhnQVlBQUFBQVlCSUNhQUFBQUFBQUppR0FCZ0FBQUFCZ0VnSm9BQUFBQUFBbUlZQUdBQUFBQUdBU0FtZ0FBQUFBQUNZaGdBWUFBQUFBWUJJQ2FBQUFBQUFBSmlHQUJnQUFBQUJnRWdKb0FBQUFBQUFtSVlBR0FBQUFBR0FTQW1nQUFBQUFBQ1loZ0FZQUFBQUFZQklDYUFBQUFBQUFKaUdBQmdBQUFBQmdFZ0pvQUFBQUFBQW1JWUFHQUFBQUFHQVNBbWdBQUFBQUFDWWhnQVlBQUFBQVlCSUNhQUFBQUFBQUppR0FCZ0FBQUFCZ0VnSm9BQUFBQUFBbUlZQUdBQUFBQUdBU0FtZ0FBQUFBQUNZaGdBWUFBQUFBWUJJQ2FBQUFBQUFBSmlHQUJnQUFBQUJnRWdKb0FBQUFBQUFtSVlBR0FBQUFBR0FTQW1nQUFBQUFBQ1loZ0FZQUFBQUFZQklDYUFBQUFBQUFKaUdBQmdBQUFBQmdFZ0pvQUFBQUFBQW1JWUFHQUFBQUFHQVNBbWdBQUFBQUFDWWhnQVlBQUFBQVlCSUNhQUFBQUFBQUppR0FCZ0FBQUFCZ0VnSm9BQUFBQUFBbUlZQUdBQUFBQUdBU0FtZ0FBQUFBQUNZaGdBWUFBQUFBWUJJQ2FBQUFBQUFBSmlHQUJnQUFBQUJnRWdKb0FBQUFBQUFtSVlBR0FBQUFBR0FTQW1nQUFBQUFBQ1loZ0FZQUFBQUFZQklDYUFBQUFBQUFKaUdBQmdBQUFBQmdFZ0pvQUFBQUFBQW1JWUFHQUFBQUFHQVNBbWdBQUFBQUFDWWhnQVlBQUFBQVlCSUNhQUFBQUFBQUppR0FCZ0FBQUFCZ0VnSm9BQUFBQUFBbUlZQUdBQUFBQUdBU0FtZ0FBQUFBQUNZaGdBWUFBQUFBWUJJQ2FBQUFBQUFBSmlHQUJnQUFBQUJnRWdKb0FBQUFBQUFtSVlBR0FBQUFBR0FTQW1nQUFBQUFBQ1loZ0FZQUFBQUFZQklDYUFBQUFBQUFKaUdBQmdBQUFBQmdFZ0pvQUFBQUFBQW1JWUFHQUFBQUFHQVNBbWdBQUFBQUFDWWhnQVlBQUFBQVlCSUNhQUFBQUFBQUppR0FCZ0FBQUFCZ0VnSm9BQUFBQUFBbUlZQUdBQUFBQUdBU0FtZ0FBQUFBQUNZaGdBWUFBQUFBWUJJQ2FBQUFBQUFBSmlHQUJnQUFBQUJnRXUyM0hnQUE4RjBxcFh6cklRRHdSV0tNMzNvSUFNQ1BUd0FOQUh5R3JCbmdoN1QvOWk2U0JnQmVuQUFhQUxpWDZCbmdwN0o1MjVkRUF3QXZSUUFOQU95U093UDg1T292QWpFMEFQRGxQSVFRQVBpRTlCbUFxcFRpbHdJQThJVlVRQU1BdDZRTUFPeFREUTBBZkFrQk5BQVF3alRwczBRYjRCdDYyY2k0bENLREJnQ2VRUUFOQU93bXhmVmI4VEhBZCswTDM4WnIzTHdkT3N1Z0FZQm5FRUFEd005dVA2RTRPVG41SmlNQjROL20rdnA2KzFzWk5BRHdWQjVDQ0FCOFZFbzVQajcrMXFNQTROL2krUGpZRFRFQXdKY1FRQVBBVDAyc0FNQ1QrTVVCQUR5SkFCb0ErRWlzQU1BT3Z4b0FnQzhoZ0FhQW41ZE1BWUJuOE9zREFIZzhBVFFBQUFBQUFKTVFRQVBBVDByOUdnRFA1cGNJQVBCSUFtZ0FBQUFBQUNZaGdBWUFBQUFBWUJJQ2FBRGdsdnVwQVRqbzRDOEl2elVBZ01jUVFBUEF6MGhxQUFBQXdGY2dnQVlBQUFBQVlCSUNhQUFnQkRYUkFEeklyd2tBNEhrRTBBQUFBQUFBVEtMOTFnTUFBTDQveStYcTR1SmlaMkxidGE5ZnYwNHhmcE1oQVFBQThDK2tBaG9BQU9DSE5RekRUdmVNVXNvd0RDK3ljbjA1QUlEUFVnRU5BRHpUMmRuWllqSGZtVGlPNC9zUEg5cW1EU0dzMSt1enM3TnhISyt2cjQrUGo2K3ZyMnVWZEF6eDR2Sml0VnlGVCt1bXI2NnVkK1pVVHczd0pZWmhLQ1gwdzlDMWJZd3hoRkJLNlljaGhqZ01ROXY2ZXhBQW1Kd0thQURnNWEzWDYvVjZuWnJVZGJmcHh2WDFkUWhoMXMyMjArY1F3dEFQNzk2OUc4ZHhzK3htVHVrendCZHFtaWFFRUVQc2g2R1Vza21mTno4Q0FKaWFUN3dCZ0dlNnVMalk3Z1I5Zkh4OGNuSmN2MDVOZXZQNjlYYTZzZmxwMy9lcjVXcSttSitkbnNWNDIwNTZ1Vnh0bHQxZUR3QmZJc2JZdHMwd2pEV0REaUhVOUxsdG0raERQZ0RncTFBQkRRQzh2SzdyVXZxa3RtNDI2K29YNjNVZlFqaGFMR3IwTVp2UDJxNGQ4N2pwSTdxWkU0QXZWelBvRUVJTVVmb01BSHg5S3FBQmdHYzYyQVA2czl6MERRQUE4UE5RQVEwQWZGVk5rMElJTjh0bExYbGVyOVpEUHpTcFVZMEhNSVhhOTNsN1N1MEgvYTNHQXdEOGJGUkFBd0RQdE5NRHV2WjkvdXhTYmR2TkYvUFZjclY1RG1GcTBqTXFxUUg0ck8ybkR0WkdISnQrMEYzYlBySVJSeW1senJuNUFnRGc4VlJBQXdCZlZZemg3UFJzZnBjNHQxMzc5dTFiZlRrQXBqQ080M2JmNSsxKzBPTTRmdXZSQVFBL2hmajZFWlZLQU1BUFp2L202enFsbEhKNmV2b3RSZ1RBSklaeGJGTGFybHd1cFl3NXQ0Lys1Ty9pNGlLbDI5S2wvUXBvTmRFQThGUDU3My8vKzlSRnRPQUFBRDdTRlJUZ0I3TWZOTWNZSDU4K0F3QjhJUzA0QUFBQUFBQ1loQUFhQUFBQUFJQkpDS0FCQUFBQUFKaUVBQm9BQUFBQWdFa0lvQUVBQUFBQW1JUUFHZ0FBQUFDQVNRaWdBUUFBQUFDWWhBQWFBQUFBQUlCSkNLQUJBQUFBQUppRUFCb0FBQUFBZ0VrSW9BRUFBQUFBbUlRQUdnQUFBQUNBU1FpZ0FRQUFBQUNZUlB1dEJ3QUEvSXZFR0hQTzMzb1VBUHlMeEJpLzlSQUFnTytZQUJvQStLaVUwalROdHg0RkFQOGlwUlFaTkFEd2JGcHdBQUFBQUFBd0NRRTBBQUFBQUFDVEVFQURBQUFBQURBSkFUUUFBQUFBQUpNUVFBTUFBQUFBTUFrQk5BQUFBQUFBa3hCQUF3QUFBQUF3Q1FFMEFBQUFBQUNURUVBREFBQUFBRENKOWxzUEFBRDQzbHhlaHZVNmxQS3R4d0hBbDRreHpHYmg5UFJiandNQStKRUpvQUdBcC9pRzZmT3Z2MzZEalFMOHdISU9OemZoOGxJR0RRQk1Sd3NPQU9BcDFENEQvREJTQ2tkSFliMysxdU1BQUg1a0FtZ0E0Q21rendBL2twUzhzUU1Ba3hKQUF3QUFBQUF3Q1FFMEFBQUFBQUNURUVBREFBQUFBREFKQVRRQUFBQUFBSk1RUUFNQUFBQUFNQWtCTkFBQUFBQUFreEJBQXdCZlM5dUd0djNXZ3dBQUFPRHJFVUFEQUY5RjI0YlhyOFByMXpKb0FBQ0FuNGNBR2dENEtvNlBkNzhBQUFEZ1J5ZUFCZ0NtTjV1RnJydjl1dXZDYkRiUmRvWmgvUHVmLy9WOVA5SDZ0OTBzbDVlWFY4OVlNT2Y4L3NPSFlSaGZaQmgxbC8vODg2L3QvMjZXeTJFWTMzLzRrSFBlbnZueTh1cG11WHlSN1g1MlZQdGIvNnpOa1NtbG5KK2Y5MzIvV2MvK3lKKzZMem5uZCsvZWY4bTFzUm5Wczlmd1BNODdtQS9vKy83ZHUvY3Z1TUo5WDM2MFArdXBlN0Y1d2U1Zk9TOStoQUVBMk9ZZVdBQmdlanRWejhmSFliMmVZanZMNVhJeG42OVc2MjZUZC8vbzJyYjU3ZGRmUWdnM3kyVy9YcCtkbmNVWVF3Z0hBKzdUMDVPdk5xbzNyMTgvZS9FWTQ2dFhyOEk5ZTFGOXRYMEJBQUMraEFBYUFKallZaEdhSm9RUXJxNUNDT0hrSkRSTldDekNTNWZpNXB4ekhrOU9UaTR1TDRkaGJOc21oSEI1ZVJWVFhLL1dmZDhmSHgrZm5wNlVVaTR1THRxdXU3Nit5ZU40OXVyc2FMSFlyS1QrTktYbSt2bzZoRkFYQ1hmbGxpR0V4V0orZG5ZMkRNUEYrVVZkWkRzSjNjeldkZDNyMTY5U1NuV0Z5K1VxaFBEMjdadTJiUzh2TDllcjlmdmh3NXZYcitzZzZ6aWJ0amxhTE9yOFIwZEhiZHZ1anpQbmZINXhjWHB5dWxud1lUZkw1ZFhsVldxYXVxM05WdmJIdVhNRTZvRHJ6b1lROWtjeURPUGwxV1hYZGR2cjM2eWsvdlRWMlZuTzVmMkhEM2tjOStlcGU3MDV6aWNueDF0SDV0WDE5ZlhSMFZHTTk5NnVWL2RsTVo4ZlBGLzd1N05ZekxlSFYwZFZkei9uVWtlYlV0byt3cHZoN1Z3aysydElLVDNtU2h1SDhmcjYrcjVybzRJTnpCa0FBQ0FBU1VSQlZPdTZldHhTakp1SlRkTmNYRnowZmY4aG4yL08xRFBXdkQzbTQ2MFBoSFl1N1BycHhiN05iSnNWOW4xL2RYMGRRbGl2MXB1VGUvQm9iOVp3YzNOVE56RU00ODNOVFQxVEI0OUFQUmZiaSt3ZitZZjM0dkx5cXBTeVdxL3pPTmFKYmRPRUVHNld5M3BPUXdnNzUzVG54VktuMUpkNW5WaEszdDZGT3M0WTQvNmgzc2c1Zi9od1d6Vy91VGczRXpmbmEzL0svZ1cyZlU3ckJiay81ZUM1QXdENDVnVFFBTUNVWXJ3dGZ5N2xObkUrUHI2ZHVGcUZVbDV3VStNNHB0UTBUVE9mei91aDMyU2ROemZMTjY5ZnB4UnJ4Tk8yYlFoaHRWejk4dlpOenVYaTRyeHJ1NTFnTk9meDk5OS9HNGJody9uRllyRUlJWHc0djZqeDhjWEZ4ZFhWOWVucFNVMzl0dVBPblBQVjlmVXZ2L3pTdHMzTmNybGFyNDhXaTZ1cjY1U2FQLzc0dmUvN0QrY1hiMTYvUGowOXphVThNa1RlSCtmaks0dUhZWnpQNTMvODhmdmw1ZFgxOVZXTmt1OGI1MmFwellCcktEWU13OEVqVnRmZk51MGZmL3grczF6VzllL0VseVdFNit1cjE2L09hbDY1WEM1M3d2cDZuRU1JbDVkWDQ1ZzNSNlpwbnRZbWJ1ZDhiUi9ZcTZ2ckVFTDlhYzBvYzg0WEZ4ZDFWSmVYVjVlWGw2ZW5weW5HY1J4VFN1TTRwaGliSnQwc2wzVzE0NWpmZi9qUU5rMTc5L3pNdW9hVGsrT2p4YUt1b1I3YmcxZmEwUGUvL3ZLMmJ2M3MxZG52di85MmNYRngzN1ZSaitySnlmR3JWNjh1TDY5cTNIbDJkcmJKWkQ4NXZ3K3VlYlBYZGMwcHhlMHhiNjZReTh2TFgzNzVwV25TNXNJK2VDSFYyZW9GYzNOelUzZHR2VnEvZmZ2bTlhdFhGeGNYOWVUdUgrMk5wbWx5S2VPWTI3YnBoNzd0MmhvVDc0enpjeWM2SDl5TC9aZG5DR0VZaG5yRnZ2L3dZUmlHcnV0cU9qd09ZLzBZWm1jZmQxNHN3ekFzYjVhLy9mWnIvWFJodVZ3ZUh4OTlzZ3ROVzMrMGN4STNsMThwNWZMeWNuRzBlUHYyelRDTUZ4Zm53N0JvbW5SNWVYbDZldEoxM2MxeWVYMTlVejk2Mlo1eWZIeTBjNG1lblowdFY2dk5DL1B5OG5JK202M1c2NTBwTzFjSUFNQy9oSCtqQUFCVE9qb0tOWlRjUkpPYmI0K09YblpUcTlWNlBwK0ZFTHEyRy9xaDNLWGJpL204Ylp1VTB1Sm9zVnJkdHY1WUhDMVNTbTNiZE4yc0gzWTcxWGF6V1l5eGFacWFKWldTWjEzYnRtMk04ZWpvcU8vN3o3YUxQVm9zYXNGeTMvZDFWRzNienJxMmxLZjFtWDE0bkE5clVxeEpjUjNBQStQY25uSjZlbEx6dXhqamRoQzhQNUlteFpyT3oyZXpHc3c5TUppdTYrNXJtaEZqUER0N2JFMzM0WlYvZXI0MlNpazVqMGRIUnpIR3RtMXJXZTQ0amlHRXBtbENDSXZGSXBjU1FraXBxZGZHYXJYdVpyTVFRcjllMTlXMmJiT1l6NGZ4WXpPUW5FdE1jVDZiMVRXTTQxajMvZUNWVmxjU1k1ck5aL1BaTE1hWVVoTkN1Ty9hZU14WmUzak5PM3M5NjlwKzZIZkdIRk1NSWZSRDN6Uk4wNlI2WWVjOGxrT2ZDYlZ0OC9idDIzcHNheDN4N1FDNnJtbWFHR005WWdlUDlrWktxVzNhVW5JcFplaUhydTBPanZQaFhUNjRGL2U5UEx1dVN5azFUWnAxbjYrNTJUL3NYZGU5ZmZ1bVJycE4yNFFRWW93cHhuN29TeW45ZWoyZnp4NStnZGRPTXZYMWxWS01LWVVReGpIblV1cmxkN1JZbko2ZUhKcXllNGx1bjVlVTBxdFhuOXkxc0Q4RkFPQmZSUVUwQURDWmxENUptWGZ1N2o4NkNzdGxlS0VIZjlVa2FITnpmV3Fhby9Hb1JtYk5vV1J6TzBmNzdFKzN3OGNZVTQyOTlxV1VUazlPNjQzem0rWVZJWVR0VXRCdU5tc2UzUFNUeHZtd21GSTZOTlQ5Y1I1c2NWQy9QYm83Zy9zanVXLzlIMmNJNGZUMGRLZTN3T2FuWGRjTjQvalhYMytITDI0Z2NOOVJLdmZFNG4zZi8vMzNQL1hyMURRNWwvbDhkbk56TTQ1NUdJZkYzVWd1emk4MmpWYU9qNC9EWGFCYVNpNzVOaERjQkl2aFdWZmF6clhSdGVtelIvV3phOTdlNjYxVSt1T1l0eTJYcTlyRElZVFFkVjBwNVdBWGprMDNraERDSmxtdXlmWEI3UjQwbjg5V3EzVnRxOUkwNmVBNEgzWndMKzU3ZVI0OEhmZlpQK3piRFM1Q0NNZkh4elZxSDRkeGJEOUd4bUgvSkc1MTRkaHVYWkthd3lmaTRFN3RYNksxNlB2UFAvOEtkNzArOXFjOGZuOEJBTDRtQVRRQU1KbWRady91RitnZEg0Zkx5eGZaMUdxOWJwcjA1czF2TlJHN1dTNDNEUi9HdXdmWmpWdFB0QnZHc2NadE9ZOU4rRXhRMVRiTnBqTHp2aUR2ZHM2dFJ3SmVYVjBmSHgvRkZHdnZnczA4RDFkUDc2UjRUeHJuNCsyTWMxT2JYRXE1dnI2cUxRNXFBUGZBU0VyT09aZVVRczZsM0xOVEthVzNiOStFRVBxK3I1MEV0aVBMV245OTI5RzRhWjRVelQvR1RoSDN4bjdzbm5QTXBReEQzNlJtczhoT3FMZXBRdDFPT2JmMy9lQ1Y5dER3OXE2TkJ4NjYrSGpiZTcwNVgvZDljTExmTlh0ZjMvZDkzOWRtRkxVdjgyZTNlMURUTkRtUHEvV3E5dDhJSWV5UGMzdis3V1Q1YmhNSDl1THhMODhuV2E1V0lZVGZmLzh0eG5pelhOWnoyclhkYXJVYXg2SDIzOGc1NzUvRWpaeno1ZVZWdllwcWIvR0R1M0J3cHc2MjVLNTNKMnkzS2QrZjhpTDdEZ0R3c3R5b0JRQk1vMm5DL05NSGthVzBtMEhQNStFbE1zZDZSM3p0U0ZDbnRFMnp1Uk8vZnJGOXMzd0lvVit2YTlRN2ptTzk5ZjRCTWFaMVB3ekRVRXE1dWJtcHQvYnZ6M1piTzN3WFJ6WnRVOXNPTEpmTCt0Ty8vL2xmZlJ6WlFYZERHcmZuZWRJNEgybC9uUGZNTm16S1B3K09aTXlsOWt6WWRITFlXVU1wdGYzdWJZeVlVck1kcU4wc2w1czJ2akdtQjU0MytHeTFaUFhtNXFhVXN0bWRwbW5HTVEvRFVNZnc3dDM3bkhNOVV4OCtuTmRzZEh2Qm5QTzdkKzl2dHA2Wm1WSXN1YXpXNnhEQ2NybmM3UHZCSyswK1Q3bzJucnJYS1RXYnZWNzNROWQyVFpOU2pKc3gxNVMyYTd1K1g5Y1RkSGw1ZFg1K2ZyQUZ4MGE5L2gvWTd2N1IzcFpTU3FtNXVWblc2K2ZnT0VNSXd6Q080MWhmMUR0ck9MZ1hqM3g1UGx2T2VYbXozQjdBaHcvbjlmdysvaVN1MXJmSHVWNDh0Y25HelhKNWZuNGU0KzZVbEE1Y29wZVhWNXVMTU1XWVV0eWY4b0o3RFFEd2dsUkFBd0RUT05rcnE5d3BpTjdNZG43K2hadXFxZWp4Vmo1YmEybHJVTlcyN2YvZXZjL2plUGJxck5id2hoQlNhbXJ6aDdkdjMzeTJiTEJ0bTlldnp1cXQ5SXZGL09Ua09JVFFOazN0ejdBcElHM2JaajZmMXh2bk55MDRUazZPTHk0dTZtM3ltd0drR045LytMRDl2TExqNDZNUEg4Ny8rdXZ2bzZPajdlYTVPK044a1ZMSGcrT3NhaGZkZCsvZVg1eGZIQjhmSHg4ZkQrTlluemkzTTVKaEdOdTI2ZGZyaS9PTDJsNWp2M1ZEalBIaytQaC8vL3RmQ0tIT3MvM1R4WHgrc2Y1NFpOcTIyVG95cjhJTFdjem4vWHI5MTE5L0x4YnoyazRrcFhSMmRsYmJqS1NtZWZQNmRjMHI1L1BaY3JYYXBQeEhpOFU0M0hZSU9UNitMUW12UDlxc1lXZmZEMTVwRDlpL05nNVdRTmZJOHNPSDg1MGVKcDlkODg0VmZueDhVc2Q4Y25wU0UvTzJiVTVQVDdkUFVIMHc0TTR6K3RxMmJacjA5OS8vcEtZNU96MjVXUzd2MjdYOW83MWpQcC9sUEc0K3F6ZzR6cE9UNDNmdjNxZW1PVDQrR2o3TmMyT01CL2RpLytYNWdLYTlmZVUrM1BWbFBwc3RiNVovL2ZWMzEzWEh4MGVyMWFyMkorbG1zM0hNbTJyOS9aTzRXVVB0Qmw0SGRucDJXanRFcDlSdExyOU5YNW9IcG13dTBmb1dVVWRlbTFQdlQzbDR4d0VBdnBYNCt0RVBVZ2NBZmhqNytWR2Rrbk4rOWVyQjdPK2ZmeDYxZ2E0TCsrdXBXZEorbzlMejgvQ1kyczlmZjMzVXBqKzFuNmJWaGc5SFIwZi84cGFwLzU1eEhoekpNSXlYVjVldnpzN0VYdFgrbGZhZEdvWnhISWY1enUwTEwrU0hPVW8vbW4vK2VmZ045dno4ZlBOS1AvaFIwMVFEQXdEK2ZmNzczLzgrZFJGL01BQUFFemhZN0h4K2ZyalkrZURNd0xjd2prUFR2UHhka3FXVTgvUHpuTWZGTk5FMkFBRC9XbHB3QUFBdnJldENlK2pmR0tlbmgrZHYyOUIxanlxQ2ZycjlCNnpGR0Q5VDVmM3Y4TzhaNThHUnRHM3p4bzEwV3o3N0tML3Z4VVMxei8rZTZ4a0FnSzlNQUEwQXZMUnhET040NE9tQzl3VmJkWDRBQUFCK09BSm9BT0NsNVJ6ZXYvL1dnd0FBQU9EYjB3TWFBQUFBQUlCSkNLQUJBQUFBQUppRUFCb0ErQkhjTEplWGwxZWZuYTN2Ky9QejgxTEtaK2UvV1M3Ly9QT3YrdC9OY3Zud2Frc3A1K2ZuZmQ4UHcvait3NGVjOHdQejNMZVN5OHVyejI1b0NnK00rWkZIOWJOeXp1L2V2ZC9aOTZmdTc3YzZQcy8yMlRQK0wzVHdUTzE3NEpyWlZvL0FuMy8rOVNKWDBmTTg2U3c4Y3I4QUFIZ1NQYUFCZ0o5STEzVmQxMzEydHB2bGNubXovTzIzWDFOS09lY1BIODVEQ0VlTHhYM3p4eGhmdlhvVlFoaUc3KzlwaW0zYnZIbjkrbHVQZ3UvSkk2K1pVa29Jb2I2T3BoL1VZWnZYNW1ONExRQUFURUVBRFFCODkvcSt2emkvcUYrZm5wNzBmZi91M2ZzUXdtSXhQenM3aXpGdXozbHpjN05ZTExibjMxL2hPSXhkMTlYVUxLVzBPRnIwNjNXVDBuSzVQRHM3Q3lGY1hGeDBzOW5SWWpFTTQrWFY1ZG5aMmRYbDVYeSt1TDYrN3Z2K1F6NS8vZnBWU3VueTh1cjYranFFOFBidG03WnRRd2o5TUh3NHY4amplUGJxYkR2UnZsa3U2NXdoaEtQRllyUGd6bXdoaEZMS3hjWEZjcms2dUlPWGwxZkRNS3pYNjdyZy9ucHFudDczL1dJeHo2V2NucHlHRUM2dkxsK2RuZVZjM24vNGtNY3hOYzJiMTY5THlkdEg2Ylk0ZEJ5N3J0dnMzY1BiMmd4MXNaanZIT0hQN3UvbUpOYk5yZGJyN2ZuckYvWGd2em83U3luVk0zdDJkamFPZVhzdjJyYXBoMlY3L1hWZ09aZjFldjMyN1p2dHp5UWVPZWZCczdBejVwMEw3OFA1eFdZOEI5ZFFyNnVVbWpxQTQrUGpuWXR6Yys0MlA2MUhvT3U2cTh1cnpmN1dReEZqdXJtNTJaeXNuWU5meit4bWtmMHp0YlBtMTYvT0xpK3YrcjdmM3U2cnM3TnhISyt1cjBNSTY5VjYrNEJ2ajNiZER6WFYzYmwrK3I2L3ZMd2NjNWwxN2VZeVByaEgyOWZEOXJHcTUrWE5tOWZMNWJMdHV1dnJtL3JLR29meCt2cDZjeFl1TGk2T2pvNjZydHVjM00yeDNabXljMFh0YjNILzdPeXZFd0NBSFFKb0FPQzcxM1ZkVFoxcWhQVGgvS0lHdmhjWEYxZFgxL3VwMFBiOEIxYzRuOC9ldlh1ZjgxaHpzYVBGNG1peHFEZm0xNkxPRU1MZHQ3bHQyaFJqQ0NHbGVIWjJ0Z213YXIrSVAvNzRmUk5TaHhDR3Z2LzFsN2ZETUh3NHYramFicFBXSFMwVzR6QTJiWE8wV053c2wzM2YvL2JicnpVUmJwdG1PeUc5dXJwT3FmbmpqOTlyd0RjTXcwNU5kMHJ4OTk5L2l6SGVMSmM1ajcvLy9sdk5aT3Q2cnE5dnVxNTcrL2JOelhKNWRYVzlXYXFFY0gxOTlmclZXZGQxZmQ4dmw4dlQwNVBOVWNvNVgxeGMxSjllWGw1ZFh0N3V6c1BicXV2Ly9mZmZobUdvV2Q3R3p2N3VMTnMwemRYMTlTKy8vTksyemMxeXVWcXZ0K2QvNEVvb3BlenZ4Zjc2NjRjQmJkdStlZk5KdWV2K2tiOXZ6djJ6c0QvbXhmdzJ6SzJKOEsrL3ZOMk9wUGZYVUxkVmgxcXZrTVZpc1IxWVgxNWVMbzRXYjkrK0dZYng0dUo4R0JZaGhHRVkyNmI5NDQvZmI1Ykw2K3VyZWw2V3k5WFpxN00vem42L3ZMeTZ2cjdadnM3N3Z0OVU5MTllWHRWRGRQQk1EY000bjgvLytPUDN5OHVybXA2SEVEYmIzVml2MW0vZnZubjk2dFhGeFVWZDI5MTFtRjYvZm5WK2NYRjZjcHBTL1BEaC9PVGt1SDdZc0xsK3hseTJNK3ZOZG5mMmFCeno1ZVhsTDcvODBqU3B2cWhQVG80MzU2V1VzbHd1TjYrc2QrL2VuNzA2Ky8zMzN5NHVMbmJPUWoyMjRmWnptckdVdkRObGV3dzdieU4xaXp0blozOE5PL3NDQUVEUUF4b0ErTUdVa21kZDI3WnRqUEhvNktqdisyZDBkTzI2cm9aS2YvMzE5NTkvL2xYYlJ0ZjBjQnpIbk10c05pdTU1SnhYcS9WOFBqczBqTkt2YjM5VTcrdXZJWFUzbThVWW02WjVJS2dhaDNGeHRFZ3B0VzJ6bU05WHEvWDJUMDlQVDJyR0YyTnNtZ1AvbGt1cGlUSFdBZFROMWZVTTQ1aHpIc1poc1ZpRUVPYXoyWDFqNkxwdUo1b2Z4ekdFMERSTkNHR3hXT1JTYWhEL3dMWktLVG1QUjBkSE1jYTJiZmVMb0xjUDFNNnkyelBVOVArK1kvV0F1aGNQckwvWjIvMzdqdnorbkErZmhlMHg5OE53ZFgxOWVucTZuVDQvc0liN3JwRGFTcUt1TnFVWTc0cWFteFEzSnpTWE1vNjU3dnQ4TmdzaExCYUxZUnkyWHdMMTQ0ZGFFMTMzNjc0ejFhVFl0VjJkYlRHZnQyMnp2ZDN0RlRaTkUyUHNaZ2RlQ0ZYT0phYTRHZEk0am5XY1RVb3B4WjJaOS9lb0gvcW1hWm9tMVJkMXptTzkvTGJQU3oxdU1hYlpmRGFmeldLTUtSMit2R09NWjJlbjI0ZDNmOHFCdDVGU0hqNDdPMnNBQUdCREJUUUE4RVBaamk5alRIRXYzbnFrbXZmVjVyR1hsMWUxa3JxYnpZWnhER0ZzbTJiTWVjeTVsQkxqZ1JTNDNFV0JPOXJtTXhGVlRRT2JjRHRiMHpianAzMmxONjB3NnJkSFIwYzdhOWhPNVM3T0x6WnROSTZQajNOYnlqMXhmQXpoOVBTMDlrdzQyTGVoNy91Ly8vNm5mcDJhSnVmZEJIQm5XMlYyK0FnY3RMTnNXcVRUazlPNm0vdHRSaDRRWTl6Wmk3cmd6dnJEUElTOWMvSEFrZDgvYS90bklhWGRNZC9PMmZkTmFzWngzRG1lOTUzSEI2NlFUVk9JRUVLNm15MGV6SENiZE44UjIyNzlVWS9HZmRmcXdUWHZlMkJiV3h2TkpkL2VPdkJKZW41bzJZUGJYUzVYbXpGM1hWZlh0WDJzUHZ2SzZycHVHTWUvL3ZvNzNQVlgyWit5bWZtK3Q1R2RyVHl3QmdBQU5nVFFBTUFQcFcyYS91N3I3ZGpyOFVvcGw1ZFhSMGRIbTNyRytYeDJjM05UU3VuYWJyVmVoUkJpMjlVdXNTR0VnMlhJOTVVbmY5Wk81ZVpPK2x4YlROUldCalZKZkhodE93Mk9jODc3RmF3YkthVzNiOStFRUdwejNrMkVXbjAyQ043WlZpbmw4VWRnWjlrUVF0czJ2LzM2U3dpaHRncjViSGZkVFdLNHN4ZW5wNmNIeDdhL2hvZVAvTGI3enNMT21HdlRocU9qb3hqVHBqSEx3MnQ0UU03NTh2S3E3a2pPK2Z4dWtaSnp6aVdsa1BQSFR4ZkdzWDQwRXZkZkFzdlZLb1N3YVp3eUR1T3pyOVhIMjg1d3Q4ZDUwTUU5MnVtd2ZQQU1mbGF0VEs4SHZIYUoyWm15K1REcDhXOGorK3Q4eHNBQUFINXNXbkFBQUQrVUdOTzZINFpoS0tYVWg3Q2wreVBYZTlZUTI2Njl2cjZxSVZkZFQrMDFrVkljaDZIdis1UmkxM1pEMzdkZGV6Q1RyV2xtN2VFd0RPTzdkKy9HOGQ1QWMwZlROc3ViWmM1NUdNYmxhbld3eFVjSVlSaUdUVTNvd1FGMHM5dmNQT2Y4N3QzN20rVXlwZFEyN1hLNURDR3MxdXZ0cHJlbGxQY2ZQbXltMVAzOU9LU21HY2M4REVNSTRXYTVmUGZ1L1haWGg0UGIycDc0d0ZBUExudGJIWHkzaWYwT0dGc0hZUnpIc2ZiWkNDSFUzczNiZTVGUzJsLy9mV3Q3NUpIL2RBQzN1L2JBbU51MmFadDJ0VjQvdkliSDJ6NTNZeTc5MEljUU5uMHFRZ2g5MzlmcmJiVmEzL2NTeURrdmI1YmgwMVB3ak1FOFJrcXg1RktQd0hLNTNJenpvUDA5NnRxdTcyOTMrZkx5cXJiRWVlb1licGJMeTh1cituV01LY2EwUDJVejg0RzNrVU12OHdmV0FBREFoZ3BvQU9CSDBEWk43YkZ3ZW5yeSt0Vlo3VlN3V014ckZlb0Q4eThXaTUzcTFCQkN2WlcrM2xrZnRxb3ZVMG9wTlNtRWxGSXQ1YXhOY2pkcTBQYmh3L25yMTY5T1RvNHZMaTcrL1BPdkVNTGJ0MithejdVSWFOcmJJZFVIN3RWK0YyZXZ6clpyS210SDJuZnYzbCtjWHh3Zkh4OGZIdy9qZUYvUlpWMVAzWXZqNCtPNlU4ZkhSeDgrblAvNTUxOG5weWM3YlhCUGpvLy85Ny8vaFJCcTg0cWRvM3AyZGxaYlJxU21lZlA2OVU2bWVYQmJpL204WDYvLyt1dnZ4V0orc0ZYSTl2N3VMRHVmeitzUjJMU3oySjcvOWlTMnpjbko4YnQzNzFQVEhCOGZEWDJmMG9HOTJGLy9mZkhsL3BHL3IxWjYveXdjTGJyOU1XOGNIeCtkWDN4ODdPVEJOZFNIRU40bnBiUTRXdFFMKy9Uc2ROYTFwZVFZVTlzMi9YcDljWDZ4M1hKa05wOWRYVit2Vit2OWtjeG5zK1hOOHErLy91NjY3dmo0YUxWYWxWSWVQbE5mTHFWVXI1K2RjUjYwdjBkdDI1eWVubTZmMWtlMlpObTJtTTh2MXJldng3TlhaMjNiTkUzYW1iS0o5ZHUyZWN6YnlQNDZhM0g2NllsKzBBQUFIOFhYcjE5L2ZpNEE0TWV5SDZ2VktUbm4yN2JIOS9ubm4rbEc5Um0vL3ZyTk52MGo2dnYrOHZKcXY5Y3ozNUZoR1BjL1B1bjcvdWJtNXZHTnMvOVZEdTRSay92bm40ZmZZTS9QenpkbjVFRGI3dS93U2dNQW51Mi8vLzN2VXhkUkFRMEE4TFBZZmdEZHdVSm1BQUNBbHlXQUJnRDRXY1FZWDczNlRJMDczNUcyYmQ3czNjN1lkZDMzK3lpOGczc0VBTUIzVGMwTEFBQUFBQUNURUVBREFBQUFBREFKQVRRQUFBQUFBSk1RUUFNQUFBQUFNQWtCTkFBQUFBQUFreEJBQXdBQUFBQXdDUUUwQUFBQUFBQ1RFRUFEL1AvMjdtMnBqV3NMb09odVNlQnJKWCtXajgwbjVUMVZwMUxtTG5XZkJ6bkVkd05tV2pLTThTUjFOY1Y2VWhlVHpRSUFBQUNBaEFBTkFOekhOQjE2QWdBZXp6ejdZQWNBVWdJMEFIQWZwNmRTQmNBVE1jL2o0bUtjbmg1NkRnRGdLZHNjZWdBQTRKZnk5dTE0OTI1Y1g0OWwrZG5mK3UrL2YvWjNCSGphcG1tY25vNjNidzg5QndEd2xBblFBTUE5U1JVQUFBRGNqUlVjQUFBQUFBQWtCR2dBQUFBQUFCSUNOQUFBQUFBQUNRRWFBQUFBQUlDRUFBMEFBQUFBUUVLQUJnQUFBQUFnSVVBREFBQUFBSkFRb0FFQUFBQUFTQWpRQUFBQUFBQWtCR2dBQUFBQUFCSUNOQUFBQUFBQUNRRWFBQUFBQUlDRUFBMEFBQUFBUUVLQUJnQUFBQUFnSVVBREFBQUFBSkFRb0FFQUFBQUFTQWpRQUFBQUFBQWtCR2dBQUFBQUFCSUNOQUFBQUFBQUNRRWFBQUFBQUlDRUFBMEFBQUFBUUVLQUJnQUFBQUFnSVVBREFBQUFBSkFRb0FFQUFBQUFTQWpRQUFBQUFBQWtCR2dBQUFBQUFCSUNOQUFBQUFBQUNRRWFBQUFBQUlDRUFBMEFBQUFBUUVLQUJnQUFBQUFnSVVBREFBQUFBSkFRb0FFQUFBQUFTQWpRQUFBQUFBQWtCR2dBQUFBQUFCSUNOQUFBQUFBQUNRRWFBQUFBQUlDRUFBMEFBQUFBUUVLQUJnQUFBQUFnSVVBREFBQUFBSkFRb0FFQUFBQUFTQWpRQUFBQUFBQWtCR2dBQUFBQUFCSUNOQUFBQUFBQUNRRWFBQUFBQUlDRUFBMEFBQUFBUUVLQUJnQUFBQUFnSVVBREFBQUFBSkFRb0FFQUFBQUFTQWpRQUFBQUFBQWtCR2dBQUFBQUFCSUNOQUFBQUFBQUNRRWFBQUFBQUlDRUFBMEFBQUFBUUVLQUJnQUFBQUFnc1RuMEFBREFyMmUzMngxNkJBQWV3WHE5UHZRSUFNQVRKMEFEQVBjbVdBQUFBSEFYVm5BQUFBQUFBSkFRb0FFQUFBQUFTQWpRQUFBQUFBQWtCR2dBQUFBQUFCSUNOQUFBQUFBQUNRRWFBQUFBQUlDRUFBMEFBQUFBUUVLQUJnQUFBQUFnc1RuMEFBQUFBRS9Xc294bGpHVTU5QnhmTWsxakdtT2FEajBIQVBDa0NkQUFBQUNKWlJtN2Vlem1NUjlsZ0Y1Tlk3MGE2NVVHRFFDRUJHZ0FBSURIdDYvUDI5M1lMVWQ2QW5xZTNnK21RUU1BSFFFYUFBRGc4UzFqN09heFc4WjJ1OXR0dDhzNHJnZzlqV205Mll6TmVwckhhalgwWndBZzRwOFFBZ0FBUEw1bEdmTXlsbVVjWVgwZVl5eGoyVzIzdDBNQ0FFUUVhQUFBZ05BUjF1ZTlveDBNQUhoS0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBaWMyaEJ3QUFBT0JUTDA3V2IxNmRUTlA3dDFmWHUzY1hOMk9NMXk4M3IxNXNicmJ6UDJmWFk0eTNyMDVlbks3bmVYbDNjWE96blE4NE1BREFGd25RQUFBQXgyVmZtWGZ6OHI5L3JzYS9sWG0xbXZiUitkYisrcktNODh1dCtnd0FIQ2NyT0FBQUFJN0w2Y2w2V2NiRjVYYi85dDNGelc1ZU51dlZpNVAxN1QydlgyNzI5Zm5zNHVicVpuZWdTUUVBdmtPQUJnQUFPQ0l2VHRhcmFWcVdaVjZXMjR2enZFelRXSy9mcitTWXB1bmw2V2FNY1htOVZaOEJnR01tUUFNQUFCeWRaWXdQdDJyTTh6TEdXUDI3RTNxem52WXZUejg0RXcwQWNJUUVhQUFBZ0tNempYR3krZS9udGRWcUdtTjhlQ2I2NG1xN201ZjFhbnI3NnVRQTh3RUEzSTBBRFFBQWNFU3VibmJ6c2t6VGRIdmVlWXl4V2szTE1uYTc5d0g2Wmp1ZlgyNnZiM1pqak5PVDlRdm5vQUdBWXlWQUF3QUFISmZybTkwMGpkY3ZOL3REMEwrOU9WMnZwdTF1L21UZDgvbmw5bVk3VDlONGNTcEFBd0JIYW5Qb0FRQUFBUGpJK2VWMnQxdmV2RHI1N2MzcC9zclY5ZTdkeGMzbmQxNWQ3emJyMWNsbTlmcmw1dnh5KzNQSEJBRDRQZ0VhQUFEZzZGemQ3RDQ1Nzd4M2ZybjlNRFIvN1RZQWdDTmhCUWNBQUFBQUFBa0JHZ0FBQUFDQWhBQU5BQUFBQUVCQ2dBWUFBQUFBSUNGQUF3QUFBQUNRRUtBQkFBQUFBRWdJMEFBQUFIemZORTJISGdFQStQVUkwQURBZjhRRkFBQUFIcEVBRFFBQXdGZjUzU1FBOENNRWFBQUFBQUFBRWdJMEFBQUFBQUFKQVJvQUFDQTBqU05kWVhHMGd3RUFUNGtBRFFBQThQaW1hYXltTVUxanZka2NZZXFkeHJUZWJHNkhCQUNJYkE0OUFBQUF3Qk0wamJGZWpXVVpZNzFlclk3eDZNOXFtdGJUV0s4ZVhzZjlmMElBNExzRWFBQUFnTWMzVFdPOWV2OWlYbzR4MUs2bXNWNk45Y29KYUFBZ0pFQURBQUFrOWcxNnRUOEhmWHltYVV4RGZRWUFXZ0kwQUFCQVpSOTVqMjhGTkFEQVQzS01tOGdBZ0ovUEhrOEF2c0ZqQWdCNEdBRWFBQUFBQUlDRUFBMEFBQUFBUUVLQUJvRG42SXQvU2UzUHF3RzRPMDhOQU9BdUJHZ0FBQUMrUldzR0FCNU1nQVlBQUFBQUlDRkFBOEF6OWJVdEhQTTgvL3hoQURoTzh6emIyZ1FBL0FnQkdnRDR5Tm5abVFZTndCaGpudWV6czdORFR3RUEvTm8yaHg0QUFEaVlhWnFXWmZua3loamovUHo4ayt0ampNK3ZBUENVZkg2b2VmclhRZVlCQUo0R0FSb0ErTWcrTkh5dFRRUHdUSHpqWTk4VEFRQzRPeXM0QU9CWiszWmZrQmdBbnFGdmYvNTdOQUFBOStJRU5BRHdMZnZRWVA4R3dITWdMZ01BajA2QUJvRG43dk50RzErOFovOUNpUVo0ZXU3ZW5SVnFBT0MrQkdnQTRFNE4rdmJPZWhnQWpwTkhBQUR3QUhaQUF3Qmp5QW9BZkpQSEJBRHdNRTVBQXdEdldmY013T2VrWndEZ1J3alFBTUJIWkdnQTlxUm5BT0RIQ2RBQXdCZkkwQURQbWZRTUFEd1dBUm9BK0tyYkFLRkVBendIdWpNQThPZ0VhQURnK3lRSkFBQUFIbUIxNkFFQUFBQUFBSGlhQkdnQUFBQUFBQklDTkFBQUFBQUFDUUVhQUFBQUFJQ0VBQTBBQUFBQVFFS0FCZ0FBQUFBZ0lVQURBQUFBQUpBUW9BRUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUFBQklDTkFBQUFBQUFDUUVhQUFBQUFJQ0VBQTBBQUFBQVFFS0FCZ0FBQUFBZ0lVQURBQUFBQUpBUW9BRUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUFBQklDTkFBQUFBQUFDUUVhQUFBQUFJQ0VBQTBBQUFBQVFFS0FCZ0FBQUFBZ0lVQURBQUFBQUpBUW9BRUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUFBQklDTkFBQUFBQUFDUUVhQUFBQUFJQ0VBQTBBQUFBQVFFS0FCZ0FBQUFBZ0lVQURBQUFBQUpBUW9BRUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUFBQklDTkFBQUFBQUFDUUVhQUFBQUFJQ0VBQTBBQUFBQVFFS0FCZ0FBQUFBZ0lVQURBQUFBQUpBUW9BRUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUFBQklDTkFBQUFBQUFDUUVhQUFBQUFJQ0VBQTBBQUFBQVFFS0FCZ0FBQUFBZ0lVQURBQUFBQUpBUW9BRUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUFBQklDTkFBQUFBQUFDUUVhQUFBQUFJQ0VBQTBBQUFBQVFFS0FCZ0FBQUFBZ0lVQURBQUFBQUpBUW9BRUFBQUFBU0FqUUFBQUFIQ09Id2dBQURTOUpSRUZVQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBQ1FFYUFBQUFBSUNFQUEwQUFBQUFRRUtBQmdBQUFBQWdJVUFEQUFBQUFKQVFvQUVBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFBQUJJQ05BQUFBQUFBaWMyaEJ3QUFBQUFBNE5mejU1OS9mbjd4anovKytQQ3RFOUFBQUFBQUFOemJKNjM1aTFjRWFBQUFBQUFBSHVMRDR2eDVmUjRDTkFBQUFBQUFEN2J2emwrc3oyT002ZmZmZi8rNTh3QUFBQUFBOE92NTY2Ky83dnNsVGtBREFBQUFBSkFRb0FFQUFBQUFTQWpRQUFBQUFBQWtCR2dBQUFBQUFCSUNOQUFBQUFBQUNRRWFBQUFBQUlERS93RW9HOUVPQndSaTdnQUFBQUJKUlU1RXJrSmdnZz09"
+              }
+            ],
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4020333095
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/My_account/My account - create account.feature",
+    "id": "check-create-account-functionality",
+    "keyword": "Feature",
+    "name": "Check create account functionality",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "open the site",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14562453584
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "close the newsletter pop-up",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3266265470
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-create-account-functionality;fill-the-create-account-form;;2",
+        "keyword": "Scenario Outline",
+        "name": "Fill the Create account form",
+        "description": "",
+        "line": 33,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "User click on Signin Register link from header",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4939799604
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "User is redirected to My account sign in  page",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 227712684
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "press on Create an account button",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4009355958
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Verify that Create My Account page is displayed",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 474926731
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user selects gender Neutral",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1232286388
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user fills first name with Firstname with last",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 945881593
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user fills mobile number on register page wit 6523145236",
+            "line": 33,
+            "comments": [
+              {
+                "value": "#And user fills last name with <lastname>",
+                "line": 13
+              }
+            ],
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1008217971
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user fills email",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 581728336
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user fills password",
+            "line": 33,
+            "comments": [
+              {
+                "value": "#And user fills postal code with <postcode>",
+                "line": 16
+              }
+            ],
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 697066072
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user fills confirm password",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1108856713
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "fill birthday",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Create.rb:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3628643599
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "check the checkbox Privacy",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Create.rb:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 232664075
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "check the checkbox SMS",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 260954045
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "press on Create your account button",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Create.rb:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4467434165
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see validation error Please enter valid 10 digit Mobile Number for phone",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Create.rb:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1845592211
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user fills mobile number on register page wit 0652145874",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1212160611
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user fills password",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1045958731
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user fills confirm password",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 606290701
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "press on Create your account button",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Create.rb:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4840484818
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify that user is logged in and welcome Firstname with last is displayed in header",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Log_in.rb:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 279022662
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1191804115
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/My_account/Subscription_pop-up.feature",
+    "id": "subscribe-to-email/sms",
+    "keyword": "Feature",
+    "name": "Subscribe to email/sms",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "open the site",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9642055585
+            }
+          }
+        ]
+      },
+      {
+        "id": "subscribe-to-email/sms;subscribe-to-email/sms;;2",
+        "keyword": "Scenario Outline",
+        "name": "Subscribe to email/sms",
+        "description": "",
+        "line": 37,
+        "type": "scenario",
+        "comments": [
+          {
+            "value": "# And site should be switched to <language> local",
+            "line": 33
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Then ",
+            "name": "close the newsletter pop-up",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 673510324
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "click on sign up now button from footer",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1667607736
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user fill the email address filed on the pop-up",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 810679175
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "click on Submit button from the email pop-up",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 266373850
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user verify the validation message for privacy policy on the pop-up",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109674487
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "check the checkbox Privacy policy on subscription email pop-up",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 193736475
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user fills mobile number on email pop-up with 6583745896",
+            "line": 37,
+            "comments": [
+              {
+                "value": "#Then check the sms checkbox on email pop-up",
+                "line": 12
+              },
+              {
+                "value": "#And click on Submit button from the email pop-up",
+                "line": 13
+              },
+              {
+                "value": "#Then user verifies the validation message for mobile phone number",
+                "line": 14
+              }
+            ],
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 651969863
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on link Terms of Use",
+            "line": 37,
+            "comments": [
+              {
+                "value": "#Then user press on language drop-down on email pop-up and selects <language>",
+                "line": 16
+              }
+            ],
+            "match": {
+              "location": "features/step_definitions/No_product_pages.rb:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 268381748
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "tou pop-up should be opened",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/No_product_pages.rb:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 437378920
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "close the  pop-up",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/Cart.rb:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 174645642
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "click on sign up now button from footer",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 157926434
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user fill the email address filed on the pop-up",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 601040856
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on link PRIVACY POLICY",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/No_product_pages.rb:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 223896816
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "pp pop-up should be opened",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/No_product_pages.rb:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 259072590
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "close the  pop-up",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/Cart.rb:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127878168
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "click on sign up now button from footer",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 152883494
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user fill the email address filed on the pop-up",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 543836911
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "check the checkbox Privacy policy on subscription email pop-up",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 178762017
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user fills mobile number on email pop-up with 0583745896",
+            "line": 37,
+            "comments": [
+              {
+                "value": "#Then user should see validation <error> for phone field",
+                "line": 28
+              }
+            ],
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 528706452
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "click on Submit button from the email pop-up",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 218010650
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verify the thank you pop-up after email subscription",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 484935020
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "close the newsletter pop-up",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 217876817
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 326555361
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

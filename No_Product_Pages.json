@@ -1,280 +1,6 @@
 [
   {
-    "uri": "features/CLP_QV_PDP/CLP.feature",
-    "id": "check-clp-functionality",
-    "keyword": "Feature",
-    "name": "Check CLP functionality",
-    "description": "",
-    "line": 1,
-    "elements": [
-      {
-        "keyword": "Background",
-        "name": "",
-        "description": "",
-        "line": 2,
-        "type": "background",
-        "steps": [
-          {
-            "keyword": "Given ",
-            "name": "open the site",
-            "line": 3,
-            "match": {
-              "location": "features/step_definitions/Settings.rb:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 9809449640
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "close the newsletter pop-up",
-            "line": 4,
-            "match": {
-              "location": "features/step_definitions/Settings.rb:97"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1281092549
-            }
-          }
-        ]
-      },
-      {
-        "id": "check-clp-functionality;mouse-over-state",
-        "keyword": "Scenario",
-        "name": "Mouse Over State",
-        "description": "",
-        "line": 6,
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "When ",
-            "name": "User do mouseover  on any category",
-            "line": 7,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 750011597
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "he should see subcategories",
-            "line": 8,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 78799416
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "press on any l2 category",
-            "line": 9,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4416627085
-            }
-          },
-          {
-            "keyword": "When ",
-            "name": "l2 category is displayed",
-            "line": 10,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 100401457
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "verify elements on l2",
-            "line": 11,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 45256316
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "check olapic is present",
-            "line": 12,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/CLP/CLP.rb:17"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 647905624
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "hove on olapic image and verify that product is displayed",
-            "line": 13,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/CLP/CLP.rb:21"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3565438541
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "press on Logo",
-            "line": 14,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:23"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3532753858
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "features/support/hooks.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 526962934
-            }
-          }
-        ]
-      },
-      {
-        "keyword": "Background",
-        "name": "",
-        "description": "",
-        "line": 2,
-        "type": "background",
-        "steps": [
-          {
-            "keyword": "Given ",
-            "name": "open the site",
-            "line": 3,
-            "match": {
-              "location": "features/step_definitions/Settings.rb:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8473796133
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "close the newsletter pop-up",
-            "line": 4,
-            "match": {
-              "location": "features/step_definitions/Settings.rb:97"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 828242431
-            }
-          }
-        ]
-      },
-      {
-        "id": "check-clp-functionality;clp-sorting-rules",
-        "keyword": "Scenario",
-        "name": "CLP Sorting rules",
-        "description": "",
-        "line": 17,
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "When ",
-            "name": "User press on l1 link from menu",
-            "line": 18,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:28"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5401048737
-            }
-          },
-          {
-            "keyword": "When ",
-            "name": "L1 page is displayed",
-            "line": 19,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 471451602
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "check that Sort by drop-down is present",
-            "line": 20,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:101"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 150869849
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "Change “Sort by” to “Price High to Low”",
-            "line": 21,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:105"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 547263597
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "Check that products are sorted correctly on the grid",
-            "line": 22,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:112"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5874130140
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "features/support/hooks.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 244460629
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "uri": "features/CLP_QV_PDP/NonProductPages.feature",
+    "uri": "features/No_Product_Pages/NonProductPages.feature",
     "id": "no-product-pages",
     "keyword": "Feature",
     "name": "No product pages",
@@ -297,7 +23,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9427106661
+              "duration": 16128418014
             }
           },
           {
@@ -309,7 +35,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1145011599
+              "duration": 4868959116
             }
           }
         ]
@@ -331,7 +57,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5561068049
+              "duration": 7951278819
             }
           },
           {
@@ -343,7 +69,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1022975671
+              "duration": 2326561930
             }
           },
           {
@@ -355,7 +81,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1434069644
+              "duration": 1349475611
             }
           },
           {
@@ -367,7 +93,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 58359993
+              "duration": 121309292
             }
           }
         ],
@@ -378,7 +104,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 297029288
+              "duration": 1373629500
             }
           }
         ]
@@ -399,7 +125,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9673107184
+              "duration": 14209302917
             }
           },
           {
@@ -411,7 +137,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 703943255
+              "duration": 2977199215
             }
           }
         ]
@@ -433,7 +159,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 724697963
+              "duration": 700530938
             }
           },
           {
@@ -445,7 +171,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 953400433
+              "duration": 558629096
             }
           },
           {
@@ -463,7 +189,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4108348068
+              "duration": 6736155830
             }
           },
           {
@@ -475,7 +201,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 262137600
+              "duration": 768892651
             }
           },
           {
@@ -487,8 +213,8 @@
             },
             "result": {
               "status": "failed",
-              "error_message": "element located, but timed out after 30 seconds, waiting for #<Watir::HTMLElement: located: true; {:data_id=>\"3\"}> to be present (Watir::Exception::UnknownObjectException)\n./features/step_definitions/LORA Common steps/CLP/CLP.rb:108:in `/^Change “Sort by” to “Price High to Low”$/'\nfeatures/CLP_QV_PDP/NonProductPages.feature:23:in `And Change “Sort by” to “Price High to Low”'\nfeatures/CLP_QV_PDP/NonProductPages.feature:18:in `And Change “Sort by” to “Price High to Low”'",
-              "duration": 30539816190
+              "error_message": "element located, but timed out after 30 seconds, waiting for #<Watir::HTMLElement: located: true; {:data_id=>\"3\"}> to be present (Watir::Exception::UnknownObjectException)\n./features/step_definitions/LORA Common steps/CLP/CLP.rb:108:in `/^Change “Sort by” to “Price High to Low”$/'\nfeatures/No_Product_Pages/NonProductPages.feature:23:in `And Change “Sort by” to “Price High to Low”'\nfeatures/No_Product_Pages/NonProductPages.feature:18:in `And Change “Sort by” to “Price High to Low”'",
+              "duration": 31490604426
             }
           },
           {
@@ -520,7 +246,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1171033396
+              "duration": 3847437129
             }
           }
         ]
@@ -541,7 +267,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9632962366
+              "duration": 12259188359
             }
           },
           {
@@ -553,7 +279,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 614637168
+              "duration": 2008643279
             }
           }
         ]
@@ -575,7 +301,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1082623905
+              "duration": 1682149908
             }
           },
           {
@@ -587,7 +313,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 47064286
+              "duration": 247222668
             }
           },
           {
@@ -599,7 +325,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 202802190
+              "duration": 297263700
             }
           }
         ],
@@ -610,7 +336,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 285515179
+              "duration": 718585186
             }
           }
         ]
@@ -618,315 +344,7 @@
     ]
   },
   {
-    "uri": "features/CLP_QV_PDP/PDP.feature",
-    "id": "check-pdp-functionality",
-    "keyword": "Feature",
-    "name": "Check PDP functionality",
-    "description": "",
-    "line": 1,
-    "elements": [
-      {
-        "keyword": "Background",
-        "name": "",
-        "description": "",
-        "line": 2,
-        "type": "background",
-        "steps": [
-          {
-            "keyword": "Given ",
-            "name": "open the site",
-            "line": 3,
-            "match": {
-              "location": "features/step_definitions/Settings.rb:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 9265909131
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "close the newsletter pop-up",
-            "line": 4,
-            "match": {
-              "location": "features/step_definitions/Settings.rb:97"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 957578387
-            }
-          }
-        ]
-      },
-      {
-        "id": "check-pdp-functionality;add-product-to-cart-from-clp-pdd",
-        "keyword": "Scenario",
-        "name": "Add product to cart from CLP PDD",
-        "description": "",
-        "line": 6,
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "When ",
-            "name": "User press on l1 link from menu",
-            "line": 7,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:28"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 6889389096
-            }
-          },
-          {
-            "keyword": "When ",
-            "name": "L1 page is displayed",
-            "line": 8,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 276653088
-            }
-          },
-          {
-            "keyword": "When ",
-            "name": "user do mousover on first product from grid",
-            "line": 10,
-            "comments": [
-              {
-                "value": "# Then user selects any refinement",
-                "line": 9
-              }
-            ],
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:44"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3276423191
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "press on QV button",
-            "line": 11,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:50"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 254843319
-            }
-          },
-          {
-            "keyword": "When ",
-            "name": "user press on view products details link",
-            "line": 12,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:218"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4770362756
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "user is redirected to PDP",
-            "line": 13,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:173"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 610817195
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "verify elements on the PDP",
-            "line": 15,
-            "comments": [
-              {
-                "value": "# Then user changed other available options (size/color, etc)",
-                "line": 14
-              }
-            ],
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:187"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1347077300
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "features/support/hooks.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 694490823
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "uri": "features/CLP_QV_PDP/QV.feature",
-    "id": "check-qv-functionality",
-    "keyword": "Feature",
-    "name": "Check QV functionality",
-    "description": "",
-    "line": 1,
-    "elements": [
-      {
-        "keyword": "Background",
-        "name": "",
-        "description": "",
-        "line": 2,
-        "type": "background",
-        "steps": [
-          {
-            "keyword": "Given ",
-            "name": "open the site",
-            "line": 3,
-            "match": {
-              "location": "features/step_definitions/Settings.rb:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 9111126939
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "close the newsletter pop-up",
-            "line": 4,
-            "match": {
-              "location": "features/step_definitions/Settings.rb:97"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 547981203
-            }
-          }
-        ]
-      },
-      {
-        "id": "check-qv-functionality;add-product-to-cart-from-clp-qv;;2",
-        "keyword": "Scenario Outline",
-        "name": "Add product to cart from CLP QV",
-        "description": "",
-        "line": 16,
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "When ",
-            "name": "User press on l1 link from menu",
-            "line": 16,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:28"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 6037861045
-            }
-          },
-          {
-            "keyword": "When ",
-            "name": "L1 page is displayed",
-            "line": 16,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1114377508
-            }
-          },
-          {
-            "keyword": "When ",
-            "name": "user do mousover on first product from grid",
-            "line": 16,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:44"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3178351898
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "press on QV button",
-            "line": 16,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:50"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 151568981
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "user should see QV pop-up displayed",
-            "line": 16,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:55"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1520369837
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "verify elements on the QV pop-up",
-            "line": 16,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:60"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1570540597
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "user verify that Find a store button is displayed",
-            "line": 16,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/CLP/CLP.rb:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 46564672
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "features/support/hooks.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 398335961
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "uri": "features/CLP_QV_PDP/lp.feature",
+    "uri": "features/No_Product_Pages/lp.feature",
     "id": "check-the-slp",
     "keyword": "Feature",
     "name": "Check the SLP",
@@ -949,7 +367,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7718937009
+              "duration": 12378075941
             }
           },
           {
@@ -961,7 +379,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 426320908
+              "duration": 611164092
             }
           }
         ]
@@ -983,7 +401,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8087957909
+              "duration": 14445300078
             }
           },
           {
@@ -995,7 +413,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 61558837
+              "duration": 106923532
             }
           },
           {
@@ -1007,7 +425,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 455237756
+              "duration": 46768705
             }
           },
           {
@@ -1019,7 +437,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 110096511
+              "duration": 227210607
             }
           },
           {
@@ -1031,7 +449,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 256869280
+              "duration": 340648414
             }
           },
           {
@@ -1043,7 +461,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2483382398
+              "duration": 5731698306
             }
           },
           {
@@ -1055,7 +473,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 169518133
+              "duration": 951670463
             }
           },
           {
@@ -1067,7 +485,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 45934920
+              "duration": 293496686
             }
           },
           {
@@ -1079,7 +497,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1722201947
+              "duration": 3333613998
             }
           },
           {
@@ -1091,7 +509,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 125065634
+              "duration": 622186388
             }
           },
           {
@@ -1103,7 +521,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 47175129
+              "duration": 363893393
             }
           },
           {
@@ -1115,7 +533,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 210388356
+              "duration": 961931638
             }
           },
           {
@@ -1127,7 +545,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 46509661
+              "duration": 111574826
             }
           },
           {
@@ -1139,7 +557,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 111355194
+              "duration": 356927124
             }
           },
           {
@@ -1151,7 +569,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 74150995
+              "duration": 113208322
             }
           }
         ],
@@ -1162,7 +580,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 377737254
+              "duration": 988907915
             }
           }
         ]
@@ -1183,7 +601,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7886744467
+              "duration": 11262813331
             }
           },
           {
@@ -1195,7 +613,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 540148307
+              "duration": 1092877690
             }
           }
         ]
@@ -1217,7 +635,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8240306484
+              "duration": 10067616193
             }
           },
           {
@@ -1229,7 +647,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 56440360
+              "duration": 217057812
             }
           },
           {
@@ -1241,7 +659,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 46954675
+              "duration": 209375992
             }
           },
           {
@@ -1253,7 +671,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 196310082
+              "duration": 519215430
             }
           },
           {
@@ -1265,7 +683,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 230482524
+              "duration": 195752994
             }
           },
           {
@@ -1277,7 +695,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 198348360
+              "duration": 239023581
             }
           },
           {
@@ -1289,7 +707,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 167579204
+              "duration": 850889678
             }
           },
           {
@@ -1301,7 +719,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 223259675
+              "duration": 390421782
             }
           },
           {
@@ -1313,7 +731,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2082116081
+              "duration": 3000891259
             }
           },
           {
@@ -1325,7 +743,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 58848523
+              "duration": 91120215
             }
           },
           {
@@ -1359,7 +777,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 107909212
+              "duration": 209881353
             }
           },
           {
@@ -1371,7 +789,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 47790923
+              "duration": 81808184
             }
           },
           {
@@ -1383,7 +801,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 171643853
+              "duration": 205055994
             }
           },
           {
@@ -1395,7 +813,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 58256951
+              "duration": 173500266
             }
           },
           {
@@ -1407,7 +825,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 136200414
+              "duration": 224557767
             }
           },
           {
@@ -1419,7 +837,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 739619054
+              "duration": 1420183088
             }
           },
           {
@@ -1431,7 +849,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 85413039
+              "duration": 203557974
             }
           },
           {
@@ -1443,7 +861,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 424336000
+              "duration": 654089014
             }
           }
         ],
@@ -1454,1142 +872,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 665217225
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "uri": "features/My_account/My account - Log in via Social.feature",
-    "id": "check-log-in-functionality-via-social",
-    "keyword": "Feature",
-    "name": "Check Log in functionality via social",
-    "description": "",
-    "line": 1,
-    "elements": [
-      {
-        "keyword": "Background",
-        "name": "",
-        "description": "",
-        "line": 2,
-        "type": "background",
-        "steps": [
-          {
-            "keyword": "Given ",
-            "name": "open the site",
-            "line": 3,
-            "match": {
-              "location": "features/step_definitions/Settings.rb:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 9372363429
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "close the newsletter pop-up",
-            "line": 4,
-            "match": {
-              "location": "features/step_definitions/Settings.rb:97"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 979908707
-            }
-          },
-          {
-            "keyword": "When ",
-            "name": "User click on Signin Register link from header",
-            "line": 5,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3705523382
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "User is redirected to My account sign in  page",
-            "line": 6,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 66264321
-            }
-          }
-        ]
-      },
-      {
-        "id": "check-log-in-functionality-via-social;log-in-from-my-acc-popup;;2",
-        "keyword": "Scenario Outline",
-        "name": "Log in from My acc popup",
-        "description": "",
-        "line": 19,
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "Then ",
-            "name": "he press on Connection button",
-            "line": 19,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:26"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 106367265
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "Verify validation message for login field",
-            "line": 19,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:30"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 59340337
-            }
-          },
-          {
-            "keyword": "When ",
-            "name": "he fills login field with ogboiko@gmail.com",
-            "line": 19,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Log_in.rb:18"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 691795699
-            }
-          },
-          {
-            "keyword": "When ",
-            "name": "he fills password field with asdasdasd",
-            "line": 19,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Log_in.rb:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 589133459
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "he press on Connection button",
-            "line": 19,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:26"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 237413896
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "verify that user is logged in and welcome Oleksiy is displayed in header",
-            "line": 19,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Log_in.rb:40"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3452379652
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "press on Logout",
-            "line": 19,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Settings.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3638324286
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "features/support/hooks.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 382884058
-            }
-          }
-        ]
-      },
-      {
-        "keyword": "Background",
-        "name": "",
-        "description": "",
-        "line": 2,
-        "type": "background",
-        "steps": [
-          {
-            "keyword": "Given ",
-            "name": "open the site",
-            "line": 3,
-            "match": {
-              "location": "features/step_definitions/Settings.rb:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 9481767787
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "close the newsletter pop-up",
-            "line": 4,
-            "match": {
-              "location": "features/step_definitions/Settings.rb:97"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 527522486
-            }
-          },
-          {
-            "keyword": "When ",
-            "name": "User click on Signin Register link from header",
-            "line": 5,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4531337943
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "User is redirected to My account sign in  page",
-            "line": 6,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 64575815
-            }
-          }
-        ]
-      },
-      {
-        "id": "check-log-in-functionality-via-social;check-reset-password",
-        "keyword": "Scenario",
-        "name": "Check reset password",
-        "description": "",
-        "line": 21,
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "Then ",
-            "name": "he press on forgot your password link",
-            "line": 22,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:35"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 186006624
-            }
-          },
-          {
-            "keyword": "When ",
-            "name": "Reset password popup is displayed",
-            "line": 23,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Log_in.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 233531113
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "he fill field with email",
-            "line": 24,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Log_in.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 407483781
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "press on submit button",
-            "line": 25,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Log_in.rb:9"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 159321823
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "user should see password reset confirmation message",
-            "line": 26,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 232648064
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "press on close button",
-            "line": 27,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Log_in.rb:36"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 112627423
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "features/support/hooks.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 413230777
-            }
-          }
-        ]
-      },
-      {
-        "keyword": "Background",
-        "name": "",
-        "description": "",
-        "line": 2,
-        "type": "background",
-        "steps": [
-          {
-            "keyword": "Given ",
-            "name": "open the site",
-            "line": 3,
-            "match": {
-              "location": "features/step_definitions/Settings.rb:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 9155747757
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "close the newsletter pop-up",
-            "line": 4,
-            "match": {
-              "location": "features/step_definitions/Settings.rb:97"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 585927227
-            }
-          },
-          {
-            "keyword": "When ",
-            "name": "User click on Signin Register link from header",
-            "line": 5,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3539813316
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "User is redirected to My account sign in  page",
-            "line": 6,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 46260059
-            }
-          }
-        ]
-      },
-      {
-        "id": "check-log-in-functionality-via-social;check-log-in-functionality-for-fb-social.;;2",
-        "keyword": "Scenario Outline",
-        "name": "check log in functionality for FB social.",
-        "description": "",
-        "line": 39,
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "When ",
-            "name": "user press on FB icon",
-            "line": 39,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:74"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1726642230
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "he fills on FB page email ogboiko@gmail.com",
-            "line": 39,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:43"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 271486168
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "he fills on FB page pssword ogboiko!123",
-            "line": 39,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:47"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 255065005
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "he press on Log In button from FB page",
-            "line": 39,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:52"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3452329978
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "verify that user is logged in and welcome Oleksii is displayed in header",
-            "line": 39,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Log_in.rb:40"
-            },
-            "result": {
-              "status": "failed",
-              "error_message": "timed out after 30 seconds, waiting for #<Watir::HTMLElement: located: false; {:class=>\"user_name\"}> to be located. Maybe look in an iframe? (Watir::Exception::UnknownObjectException)\n./features/step_definitions/LORA Common steps/My Account/My_account - Log_in.rb:41:in `/^verify that user is logged in and welcome (.*) is displayed in header$/'\nfeatures/My_account/My account - Log in via Social.feature:39:in `Then verify that user is logged in and welcome Oleksii is displayed in header'\nfeatures/My_account/My account - Log in via Social.feature:34:in `Then verify that user is logged in and welcome <firstname> is displayed in header'",
-              "duration": 30043099807
-            }
-          }
-        ],
-        "after": [
-          {
-            "embeddings": [
-              {
-                "mime_type": "image/png",
-                "data": "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7dZq4zKMZViPn3+DwvMuyBhjbLpScin5oxj6SyTvAPxkBNAAP61ayeaPXIDHKwcfw/cTGcY85ti1qU0hxNA0TUpNTYpKuS3eLCEPY/g6DzSDLyWl9vENJp8088Ni032FTxRKKf0w9sPU23kyWTMAjyGABvjGhjG39z346SkrOTA1xlU/zLtWBg3wGCWEvh9/+g/uSinrfuxjbJuYYkzxtmy0hFBKGXMYR02f4bHUswPAJ8V2dvytxwDAlKQIAI8Tw32PJgMAAEII4d83//fURVRAA/zsVOYAAAAA34huTQAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATKLNefzWYwAAAAAA4CfUnp0svvUYAAAAAAD4CWnBAQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJATQAAAAAABMQgANAAAAAMAkBNAAAAAAAExCAA0AAAAAwCQE0AAAAAAATEIADQAAAADAJNpvPQAA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AAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAA6biCtwAADIpJREFUAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAILHc9wAAAAAAAPx6/vzzz/sX//jjj49fOgENAAAAAMCTfdaav3hFgAYAAAAA4Dk+Ls736/MQoAEAAAAAeLZdd/5ifR5jTL///vvPnQcAAAAAgF/PX3/99dRvcQIaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAk/g/TapYKsvr+owAAAABJRU5ErkJggg=="
-              },
-              {
-                "mime_type": "image/png",
-                "data": "ZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUI0QUFBQU9uQ0FJQUFBQk9Kc3dNQUFBZ0FFbEVRVlI0bk96ZDJYTGJTTll1ME13RVFGS1RoNW9lNnp4c1AxTGYvQkhscXJhdGtTU0F6SE9SRWsyVGxDekpoc2UxdWlKYWdqQWtCbExXeDQyTjJNNk9Bd0FBQUFBQVBPamZOLy8zMUVYU0ZPTUFBQUFBQUFBQk5BQUFBQUFBa3hCQUF3QUFBQUF3Q1FFMEFBQUFBQUNURUVBREFBQUFBREFKQVRRQUFBQUFBSk5vdi9VQUFBQUFnRStibGFFcitVbUw5REd0b3ovOEFaamNmLzd6bi8vMy8vN2Z3Ui9GZG5iOGxVY0R3RmRWU3ZuV1F3RDRJY1FRUW96ZmVoUUE5enJKNjJjc2RaVm1YM3drQVB5eS9uM3pmL3NULy9PZi85UXZEbWJRQW1pQWIydythOXJtY3hzaURXTmVyY2Y5NlUwVDUxMHJUZ0Y0akJKQzM0Lzk4TFRxd2g5VWpLRkpvV2xpdXZzbFVVSW9KZVpjaHJINDdCSytUd0pvQUw2NS9RQjZrejVYK3htMEh0QUEzOWpucDgvM3JxUVU2VFBBNDhVUXVxNEpQM3YyR21QcDJtSFdycHZZeHpLV2tsTktNY2FVVXRPa3JrMkxXWnAxS2ZyOUFRREFwK3lrendlbnFJQUcrTVpPanJvdnNwNnJtMzVuU2lubDlGakJDOERUWEY2dmYrTHN0VW01YTljeGxCaFRLYkdVbEhOc1VwdExhZHAycytPbGxGSktQNVJoL0NYcXdlRkg4VkVGOUh3ZTJqYUVFSElPTnplM0U3c3V0RzFZcjhQNDRkNjQ2U3FnUzhtbDVJOCt0NHN4eGhTaldqZUFuOWJCRmh3UDh5d0NnQi9KbU10WTc0eU9JWVlZWStoYS83NEg0RkdhT003YU1hV1ljeTU1akxFSm9UU3B1VzI0VVVxSU1ZUVNRb2d4eEJobmJjbTU1UElqeGZHbGxPLy84NE1mWXBBOHlWWU9XNlBZK0dWejJKUmkyNlNtaWVINkxvQnVtcEJTV0sxQ0tXRTJDMTBYK3Y0MmtuN2liUnpQdXlCTEtTVVBCN1pWU2dtNXhCaFQ2em9Ib0JKQUEvd3dWdjA0N0hVbUZVQUR2N0pTd2pEMHd6aldDTFZKVGR1MnpaZG9iZlR6YVZKb1Vna2hsaEppU0NXV1dKT2lXSVpoYkcvTG56OWtTVFZRaTJVZFExdEM4dzFIRGw5UXlibVVNWVFTUW9xcCtmeUU5SGFGdXpscytaRER4aWFtNTc4cHhSaG5iV3JiRk1MSEd4bkgyNnJuNXU3bDJUUWh4ckJlMzVaRlQ2bmtzZVFEVHgvWm1xT1VzUStwaWNtN0J3QUNhSUFmeEREbS9mUVo0RmVXYzE2dDF5V1gxS1JheGp2bVBLNVdYZGQyM1pmcGJ2VFRpREcyVFVteERXSE00MWh2a2k4eGxsQkt6c093ampHa0pzWVl5MjBKWjhrNXh4QzZMb1dRVjBNcVAxUWROSlNTU3ltaGxKZytsQ0huUElZUHNXa3V1Y1Rtczk0cjhqaUU4dUEvejBvcFpTZ2xwZVk1ZjNySEdCZnpwajRwdFA0N2NIY3R0ZVE1NTlEM0lZUXdqbUg2ZDc4RDZYT01JZFMzaUxJZGs5ZlpaTkFBQ0tBQmZnekQ4Sk0vRkF2Z1NVb0pxL1c2bERDZnp6Y2x6NldFdnUvN2ZvZ3h0YTNJNDRPdWpVM1R4QmhDYUVyS0pZODVqNkdVR0ZLTXNXMmJFc1l4aHhSaUNLWGtNY1lRUTRneHBGaEtDRjFUMW9PSEN2REQyTTZGeTVoRGFtOXJrSGZxbEV2NW5IWW9lZXdmMit5aTVEejI2Y2xoOTRmMHVSOXl6aVdYc3ZzSC9Hb1ZWcXN3bjRmRklpeVhUMXovYzVSUzl0TG5qK0wxblhpNjVERkVEelVGK05VSm9BRitESG5yTDV6NXJHay83d2J6blBPd0ZXbTNiZHQ4eHMyaER5aWw5UDNRdE0xRTZ3ZCtXY1BRbDF5MjArY1FRb3hoTnV0eXlldCszVFFMa1VjVlkwd3BsaEJMS2FrMnBVMnBTVzBwdWVTeGxES2JkN21NTWVSUTIzT2tXdTFjUWlnaGhsaENtM0lmdS91S29JOFdiYm83MUxtVW0rVVFRbWhTbXMrYUVNSnFQWTU1dDBUMDRaL3VyRHpHdUY2UFRSUGJKZzFqWHEwZnZQSC9FVGJyckk5WTNQbjJlN0NZdDAzNjZHajNRNDR4UFBJSTNIZDR0ODlVQ0tHRXNMUFhqejh2VDlydVYxWksyYWxLTG1XSTRkQW5LREUrUDMzTysyMDNQakdzbk1mMGxGcmdXWmMyNTZ0SnNVa3hseEtHdXgrM2Jaak53bm9kaGlGOHhmZTZrb2VQdm85eHA3ZzdwcWFFRXJZdWdKS0h6NncwQitCSEo0QUcrREdVclQ5eXZrVDZQTFp0bTFJS216QTZOYW9GZ1IvSU1JNnBTUWZiUFhkdHQxcXR4akY3VzZ0U0NqbVhFTVlRUTBueDFsMFhqanoySVl3cDFjeXV0dVhZYWdaOTkvOXRHdnB4TjBLNkRSeGpXSzNIWWN4dGsyYXo1bmpSZlg1R3ZGSGo3QkRDTUlaVitHS3IvU0gwUTE3M0grM3k1eCtCL2RCNTI1ano5Zko3U2VHZnJaUzlvMVJDS1RuR3ROM2wvUE0yVWNMREhaQVB5bU41ZEMxd2pISDdPUjhweFJBK3p0V0hJVFJObU0vRGZCNUtDYXZWazhmemRIY1BXdHdhNTEya25zYytoRkNydkdOc1NzamJpOTBkZndCK1VRSm9nRjlPemlYR2tPNUtrbE5LS1RXbDVCQ2FjRmV6WEVJSklhU1l1dTcyTjBYZkQvbnU3NTdOOUdFWWI1KytFMHJidGluR2c4dm1NUS9ERUVLSUlYYWRSNklEWDBESnBia25YNzVOYXU3ZTFtaFNpckdXaFphY1N3Z2hoaGhEYUpxMDZmZ2NRd214aEZEZndyY0NwaGhDcWIwNER1U1M5Y21GdzVocm9EbU11UmxqMjZTMmpkdWRvMnBPWGQvN3gxeVdxNDhxS0d0WmJpM3MzWlRvbG5KYlJUdEZCZlFEWmwyelNmM3F0bXFxSGtvSkljWVlTZ2g1TEUwVHQvZGxVN0M4R2ZZVVk2djNQdzFqSG9aU0M0MURLREhHVGFaY2h4cjMra3c4ckI3aGVwYkhzZFNYVHozSU8yZHRVK0Q4eU8zdW44MHZjQlFlNCtEK2w5cWplTGNGeDNNM2NYaGZZdFB1WnRNeGhwakNKcmN0T2NSSHZTL3RWeHZjcklhY3c4bjJwTnAvWTBmZjMvYURua0M1Wjhkekh1b08zdGZTNUJrQjlFTWRUbUo4ZWo4VEFMNGxIMElDL0hKaWlybVU3YjhEMjdhcEQremFkTXlZejJiejJTeUVNZ3hqQ0tIdmh4QktuZGkyYmUwZVdwZk5PYmR0TTUvTm1wU0dZVWdwN1N3YlF0Z3NHMlBZbWdqd0dlSkh0NFpzcTlOVjIyMmtGRktLS2RWdUF6V0VLeVdVY1J6eU9NUlk0dTJFRUVvTUlkMDlUQ3lFOENHdlMrbEE4SFNYOVcvTlhrS29TZTJXMlN4dHFxU2JGTzlDekJCQ2FOdVlZaHh6V2EzSCtheXBTWFJ0TjlGMVgvc00xdlI1ek9YcXBoOXphWnMwNis2R0d1TzZINGN4eHhCU2lzdlZtRXRwVXB4MXpYeldOT2syUUE4eHpHWmZhZGd4aG1Fcy9aQmpDRzJiUWdoZGwySUkvWkNITVQvcG85NFl3cGp6MVUzZmJ6M3UrTDZ6OXNqdGZ2T3p1YXNPYkNmOGZlNjd4TUVjTnFZMnhwUlNFMnBSY0F3eE5URzFZYXRxK0w0QWQxL2I3SjdDbk1PWHF1Qit2cjEzM1RJT2VWamZOdHpZMUhmdjcrYlRzLzU0ZjFMdnFZWUFQeHdWMEFEZnRhdWJBelVzbTRrN3pSd2ZxVW1wcEdhb05ja2hwQmk3dXdlbWoyT09NVzc2TlRkTk00eGpLUjlxbWV2OGNTdWJpREhXWXVveDUxSnUveFlOSVd3UzdSQkNhalovdGFiSC8ra0Y4SUFtTmZWdFovOWRjQnpIY0plTkVrS0lJYVFZUzR5aDNGWTQxNGtsRDZYMjNMZ3RqNzZOcDJPTXQ5MmZiMmV1bFp2M3hQMmg5dmU0bFhNdEZmNHdROVBFR0dNcFpSaHovWVZ3dS80UWFsUGpYRDZxaWE1RnZnZC8vWDFCTVlUNXJKbmYxY2pYSGFqWFROMmRZY2hwMWpSTnJOL1c4ZGNHdnZWRDNGSlMvV1dZVWl3aGpHTVp4dHlWRkVOc1V2b2kxYjVkbTJvNTlxYXo5cmJOa1M5M1J6TEdtRXRaOTJPVDBuM3RaN1ozZkZQQlhjZS9QZHNEWisxSjIvMDZaM05YVEdHL0M4ZnR0WjNLVmh1VCtPVWVVQkZURXovY1c5YVVFT3UzZTJXOGo4MWg5K3VJbXhUSC9LMEQ2QWVrbEZJYlFxak41VDkvZlRHbEVKcjlWY1hVK0h3UjRJY2pnQWI0Z1QwamZhN2F0bWxERSs0YWE2elc2eVkxYmR1VVV1cTNtem0zcytaaEdNZjcvNklvdWRTV29zOGJFc0NUdEcwN3JsWjkzODltSDkySW5YUHVoeUUxS1huMjZRZTF0dm51ZjNjVFl3cWxsQmhLQ1NYR05zYW1sa0huUElZUVlxemZoUmkzWXVnOXRTSjRrK25WaDZadHAyVDFROHNZNDhsUnQ1bXlMY1U0NjVwMVB3NURhZEp0cHRrZVRkdHRZN3NWOG0wUGloQnVPMnc4SmVPTDhiYWZ5U2JWTFhzNytHejdQYUEvVXNMQkQyQWU5bkFQNkkySHp0cmp0dnMxeithdXd4K1cxQ1lxOVpPWXU0OWhucDlqN3ZaQmpxa3BPWmN5M2paQlBwdytQOEgrRVY3TW14Q2FmRE9tSjhhNy9WZUlhMlA4a0Q2UHV4K1dQSCt0cVNraGZOVFNKRFhLbndGK1JBSm9nQi9WRjRsNmEybnptUE00aktXazhISHY1bzBhUGNjUVoxMFhianR5QUh4TFRaTzZycTJmb25WdGwxSXNwWXpqMkEvRGJUK0plMXFSc3JGSm4wTUlKVFF4ZGJjbDBFMFhTaTQ1bDFML3F5WFNCektzbkV0cVBqck10L2ZmYjRWdXQ3MDlQcTdocmJmYWxCREdNYmROYXBvWStnOVB3S3N0bFpzbXRjMVhyZmNzSmFUNFVaNyttRVZLS0NIRXg2UzZYMEd0di83ODlUeHcxaDY1M1lObjgrc2NvcGlhVXVLSHhoY3h4cmpkV0diNzRuejJ1OFRXZ3pwVEUrckRQRXNOUy91YVFkK1RQajkyY3dkVC9uN0k2M0RYNGlPRWxHTE90VVY3TEtHVUVvNFg3ZGV1Ti85WStkS2R2bE5xY2lpM0xUNVNTdEpuZ0IrVEFCcmdSL1hzWEtYdit4aFR1M1dYYkYxVC9UUHNZSXVNVW5MYnRyZDV3VDIxUERIRlBFaDhnSytuNjdvWTA3cGZyN1lldzVXYVduaVlsNnZWZkRaVEJ4MUN5T1hnZzE5S3lXT010ZE5DTENYR3NsVWVIWnZZcEhqM1RNSlN5cGpEZml4YnExemJKcFV1clB0eDFqVnRrMG9KMjA4Z0hNZlNOQ1hHV0lQbXpXUDBRZ2loaEdFb0taVmFCSjFTYkZMc2g5ejNPYzNxYzNHLy9ORjRRTTZsU2JFMjRtamJGRU1ZeGsrUElPZlNOckZwWWdocE5tdktvWFlaWDBGdEFKSmlIVW5ZS3ZOOWpvZk8ydU8yVzNQbmIzSTJZNHd4Tm5rVGRzZTBxWm5OZWRpdVhTNTVDT2xaejBiZWRQbUlNWlJjdHF2bVM4bGpYNzg0dk9EajdQK0RhaGgzSytMditzT0VITUx4b2gyRy9LVDYvZWU0NzhJcUpRL3JBOU8zRjN5dWxOcGNodnJGczFjQ3dMZmxIUnpndTdhNTlYVzdubVV6OFhsUzB3ekRFUE9IWXFYYStqbWxGR1BwK3p3TVk0Mm5oMkdzMFhNSW9kd0ZHTU13bEVNM1lqY3A1VGlPWTY3TDFpcnA5cjRtbEFCZlF0czJUYk1ZeDF4S3JtOWpLYVZTeW5LMUxqa3ZWK3ZGWEFZZGNnNGw3ZVEvdGJ4MTA0MGd4cGcydlRidVpyenRCRjNuejZXRXNQc0paYTF5UFZxMCs5Mkt0K3RoMStzOG56WDFLWGIxZVlQYlArMzdQSnMxVFJOdmxzUGRxa0lJb1IvcUEyKy8zdW1yNlY3WHB2cDd0bmJBYUp0UERHQzFIdU04dGsxcW0xQktXSysvV1IxMFBjNWRtMHI1QW1udncyZnRrOXRkcmc2ZXphK2tiRDMzTDVSY1Nxb3RyZmZuSzJOZjgvTW54ZEFmZWtuZms4WStzT0FqTnpIbXN0UEkvb0hqVjhydFl6eTNIeU01aFJoVDJYc2ZxRCtvS1gvSjQ4SGQvOHl1emFrUlhBRDgyR0k3Ty83V1l3RDRwVDB5VGY1a0FMMS94MlVwNWZSNGRuQnRPZWRocTVDcE5vRGUvOUhtK1lUYkU5dW15VG1IRUx1dXJRbjE1aG1HcFpTK3Y0Mm42N0oxU3RNMjlhL1duZmtCSnBKTFdTNVhvWlNZNHRGaThhUmxMNi9YUDltZEhESEdvM242T0FBcUllU3hYNldtaG1VeHBubUk5MzVrV0VxK1dlWDc3b0Q1cnZ3UU4rTDhFSVA4UWQwK0FXLy9XbzBwcGhSaktxV1VQT3pQRUovWVhEam40YUZJK0tDN3gvUTlSb3p4ZVBIUnpBLzMwVzVTV3N5YjYrWHdqTmZwa3k3SXc2MUZVblA3aU00OGh2MFcxVEhXdGlRQS9CeitmZk4vVDEzRUI0a0F2NktVMG14Mk9KcysrS09kaVUxeit4ZGEyelloYkxYeWlISG5hV0E3VTNibUI1aElpbkV4bjlVbnJIN3JzWHg3cFpSaExHMnpuVEhGRUdKTU1lZHkyeDYzNUkvNzVPNHNmbS8vSmZoK1BQVFF2NUxMbUV0TXFXbERhc3U0OTdGOWZmYm1vOTh4VW1wemVjb3pCdThlMC9kSXBaUit5UFhHZ3FyMnVobkhrbExJT2V4VWxNKzYxQTlmNDFPaWVPam9iZFdiSHlwLzFqb0Q0SmZuTndFQUFEK2hsTkpUYTU5L1l2MVFtclJiNUJoRE0rYStQcjRzeG5KZnE0a2FoSDJOVWNKbnVLLzV3ODVNdFYxUGlTbnNQZlNpbEJ5ZjhqRjVhcnFISXU5dHp5b0JYdmZqcGlsNXRXbHBFa0lZeDdSYzMzWWJyNTFTZGpwRVR5VEdHRkpUZHNxY1M3NnY4M1ZNVDJ0dkFzQlA2VmZ2aUFjQUFEKzlVa28vbEkrckkyTXVvZVNZYzhoanVYdDIyVzU0ZEdoQitCNGRmSXJ5Z2RscTRmRGhTUFRKMS9tblkrVVlZbXFlM1lCaXVSN3ZlNjVnMDhRUVlrcnhhTjZtR0pmM2QrZjQ0ZzYzS3puVWV2eXBqVTBBK0ZtcGdBWUFnSi9mTU9ZWVE5ZW11MnJFV0xPeDJvVWpwYVkrZGJDRUVqZFBIaXlsSC9Jd0tuL21oL0RJK0xpRTJ5ZHNmbEV4aEpEcTR6MXZ2NDh4eHZTWkQ5OHJwZHlzeGxtWHRudHhiQnpObTVSaVArUjFuNy80RGowc3BpYkVkTENiOXQwY01hWlc3VE1BbFFBYUFBQitDZjJRU3dsZEc2dW1hVU5JWXhpYkpqWHQ1dStDRWtJc3BkVGE1eDh1ZmY0aEFxOGZZcEEvbmtOZE5lNVREc1cxOGY3bmNIN0NVNTR1K0hSbDNZLzlrTnNtdFUxOTdkWnE0ektNWlZpUG4zK0R3dk11eUJoamJMcFNjaW41b3hqNlN5VHZBUHhrQk5BQVA2MWF5ZWFQWElESEt3Y2Z3L2NUR2NZODV0aTFxVTBoeE5BMFRVcE5UWXBLdVMzZUxDRVBZL2c2RHpTREx5V2w5dkVOSnA4MDg4TmkwMzJGVHhSS0tmMHc5c1BVMjNreVdUTUFqeUdBQnZqR2hqRzM5ejM0NlNrck9UQTF4bFUvekx0V0JnM3dHQ1dFdmg5LytnL3VTaW5yZnV4amJKdVlZa3p4dG15MGhGQktHWE1ZUjAyZjRiSFVzd1BBSjhWMmR2eXR4d0RBbEtRSUFJOFR3MzJQSmdNQUFFSUk0ZDgzLy9mVVJWUkFBL3pzVk9ZQUFBQUEzNGh1VFFBQUFBQUFURUlBRFFBQUFBREFKQVRRQUFBQUFBQk1RZ0FOQUFBQUFNQWtCTkFBQUFBQUFFeENBQTBBQUFBQXdDUUUwQUFBQUFBQVRLTE5lZnpXWXdBQUFBQUE0Q2ZVbnAwc3Z2VVlBQUFBQUFENENXbkJBUUFBQUFEQUpBVFFBQUFBQUFCTVFnQU5BQUFBQU1Ba0JOQUFBQUFBQUV4Q0FBMEFBQUFBd0NRRTBBQUFBQUFBVEVJQURRQUFBQURBSkFUUUFBQUFBQUJNUWdBTkFBQUFBTUFrQk5BQUFBQUFBRXhDQUEwQUFBQUF3Q1FFMEFBQUFBQUFURUlBRFFBQUFBREFKQVRRQUFBQUFBQk1RZ0FOQUFBQUFNQWtCTkFBQUFBQUFFeENBQTBBQUFBQXdDUUUwQUFBQUFBQVRFSUFEUUFBQUFEQUpBVFFBQUFBQUFCTVFnQU5BQUFBQU1Ba0JOQUFBQUFBQUV4Q0FBMEFBQUFBd0NRRTBBQUFBQUFBVEVJQURRQUFBQURBSkFUUUFBQUFBQUJNUWdBTkFBQUFBTUFrQk5BQUFBQUFBRXhDQUEwQUFBQUF3Q1FFMEFBQUFBQUFURUlBRFFBQUFBREFKQVRRQUFBQUFBQk1RZ0FOQUFBQUFNQWtCTkFBQUFBQUFFeENBQTBBQUFBQXdDUUUwQUFBQUFBQVRFSUFEUUFBQUFEQUpBVFFBQUFBQUFCTVFnQU5BQUFBQU1Ba0JOQUFBQUFBQUV4Q0FBMEFBQUFBd0NRRTBBQUFBQUFBVEVJQURRQUFBQURBSkFUUUFBQUFBQUJNUWdBTkFBQUFBTUFrQk5BQUFBQUFBRXhDQUEwQUFBQUF3Q1FFMEFBQUFBQUFURUlBRFFBQUFBREFKQVRRQUFBQUFBQk1RZ0FOQUFBQUFNQWtCTkFBQUFBQUFFeENBQTBBQUFBQXdDUUUwQUFBQUFBQVRFSUFEUUFBQUFEQUpBVFFBQUFBQUFCTVFnQU5BQUFBQU1Ba0JOQUFBQUFBQUV4Q0FBMEFBQUFBd0NRRTBBQUFBQUFBVEVJQURRQUFBQURBSkFUUUFBQUFBQUJNUWdBTkFBQUFBTUFrQk5BQUFBQUFBRXhDQUEwQUFBQUF3Q1FFMEFBQUFBQUFURUlBRFFBQUFBREFKQVRRQUFBQUFBQk1RZ0FOQUFBQUFNQWtCTkFBQUFBQUFFeENBQTBBQUFBQXdDUUUwQUFBQUFBQVRFSUFEUUFBQUFEQUpBVFFBQUFBQUFCTVFnQU5BQUFBQU1Ba0JOQUFBQUFBQUV4Q0FBMEFBQUFBd0NRRTBBQUFBQUFBVEVJQURRQUFBQURBSkFUUUFBQUFBQUJNUWdBTkFBQUFBTUFrQk5BQUFBQUFBRXhDQUEwQUFBQUF3Q1FFMEFBQUFBQUFURUlBRFFBQUFBREFKQVRRQUFBQUFBQk1RZ0FOQUFBQUFNQWtCTkFBQUFBQUFFeENBQTBBQUFBQXdDUUUwQUFBQUFBQVRFSUFEUUFBQUFEQUpBVFFBQUFBQUFCTVFnQU5BQUFBQU1Ba0JOQUFBQUFBQUV4Q0FBMEFBQUFBd0NRRTBBQUFBQUFBVEVJQURRQUFBQURBSkFUUUFBQUFBQUJNUWdBTkFBQUFBTUFrQk5BQUFBQUFBRXhDQUEwQUFBQUF3Q1FFMEFBQUFBQUFURUlBRFFBQUFBREFKQVRRQUFBQUFBQk1RZ0FOQUFBQUFNQWtCTkFBQUFBQUFFeENBQTBBQUFBQXdDUUUwQUFBQUFBQVRFSUFEUUFBQUFEQUpBVFFBQUFBQUFCTVFnQU5BQUFBQU1Ba0JOQUFBQUFBQUV4Q0FBMEFBQUFBd0NRRTBBQUFBQUFBVEVJQURRQUFBQURBSkFUUUFBQUFBQUJNUWdBTkFBQUFBTUFrQk5BQUFBQUFBRXhDQUEwQUFBQUF3Q1FFMEFBQUFBQUFURUlBRFFBQUFBREFKQVRRQUFBQUFBQk1RZ0FOQUFBQUFNQWtCTkFBQUFBQUFFeENBQTBBQUFBQXdDUUUwQUFBQUFBQVRFSUFEUUFBQUFEQUpBVFFBQUFBQUFCTVFnQU5BQUFBQU1Ba0JOQUFBQUFBQUV4Q0FBMEFBQUFBd0NRRTBBQUFBQUFBVEVJQURRQUFBQURBSkFUUUFBQUFBQUJNUWdBTkFBQUFBTUFrQk5BQUFBQUFBRXhDQUEwQUFBQUF3Q1FFMEFBQUFBQUFURUlBRFFBQUFBREFKQVRRQUFBQUFBQk1RZ0FOQUFBQUFNQWtCTkFBQUFBQUFFeENBQTBBQUFBQXdDUUUwQUFBQUFBQVRFSUFEUUFBQUFEQUpBVFFBQUFBQUFCTVFnQU5BQUFBQU1Ba0JOQUFBQUFBQUV4Q0FBMEFBQUFBd0NRRTBBQUFBQUFBVEVJQURRQUFBQURBSkFUUUFBQUFBQUJNUWdBTkFBQUFBTUFrQk5BQUFBQUFBRXhDQUEwQUFBQUF3Q1FFMEFBQUFBQUFURUlBRFFBQUFBREFKQVRRQUFBQUFBQk1RZ0FOQUFBQUFNQWtCTkFBQUFBQUFFeENBQTBBQUFBQXdDUUUwQUFBQUFBQVRFSUFEUUFBQUFEQUpBVFFBQUFBQUFCTVFnQU5BQUFBQU1Ba0JOQUFBQUFBQUV4Q0FBMEFBQUFBd0NRRTBBQUFBQUFBVEVJQURRQUFBQURBSkFUUUFBQUFBQUJNUWdBTkFBQUFBTUFrQk5BQUFBQUFBRXhDQUEwQUFBQUF3Q1FFMEFBQUFBQUFURUlBRFFBQUFBREFKTnB2UFFBQTRJZFVTdm5XUXdEZ3M4UVl2L1VRQUlDZm53QWFBUGdFV1RQQVQybi83VjBrRFFCOGNRSm9BT0Jlb21lQVg4cm1iVjhTRFFCOEtRSm9BR0NYM0JuZ0YxZC9FWWloQVlEUDV5R0VBTUJIcE04QVZLVVV2eFFBZ00ra0Fob0F1Q1ZsQUdDZmFtZ0E0SE1Jb0FHQUVLWkpueVhhQU4vUWw0Mk1TeWt5YUFEZ0dRVFFBTUJ1VWx5L0ZSOEQvTkErODIyOHhzM2JvYk1NR2dCNEJnRTBBUHpxOWhPS2s1T1RieklTQUw0MzE5ZlgyOS9Lb0FHQXAvSVFRZ0RnZzFMSzhmSHh0eDRGQU4rTDQrTmpOOFFBQUo5REFBMEF2elN4QWdCUDRoY0hBUEFrQW1nQTRBT3hBZ0E3L0dvQUFENkhBQm9BZmwweUJRQ2V3YThQQU9EeEJOQUFBQUFBQUV4Q0FBMEF2eWoxYXdBOG0xOGlBTUFqQ2FBQkFBQUFBSmlFQUJvQUFBQUFnRWtJb0FHQVcrNm5CdUNnZzc4Zy9OWUFBQjVEQUEwQXZ5S3BBUUFBQUYrQkFCb0FBQUFBZ0VrSW9BR0FFTlJFQS9BZ3Z5WUFnT2NSUUFNQUFBQUFNSW4yV3c4QUFQanhMSmVyaTR1TG5ZbHQxNzU4K1RMRitFMkdCQUFBd0hkSUJUUUFBTUJQYXhpR25lNFpwWlJoR0w3SXl2WGxBQUErU1FVMEFQQk1aMmRuaThWOForSTRqdS9ldjIrYk5vU3dYcS9QenM3R2NieSt2ajQrUHI2K3ZxNVYwakhFaTh1TDFYSVZQcTZidnJxNjNwbFRQVFhBNXhpR29aVFFEMFBYdGpIR0VFSXBwUitHR09Jd0RHM3I3MEVBWUhJcW9BR0FMMis5WHEvWDY5U2tycnROTjY2dnIwTUlzMjYyblQ2SEVJWitlUHYyN1RpT20yVTNjMHFmQVQ1VDB6UWhoQmhpUHd5bGxFMzZ2UGtSQU1EVWZPSU5BRHpUeGNYRmRpZm80K1BqazVQaituVnEwcXVYTDdmVGpjMVArNzVmTFZmenhmenM5Q3pHMjNiU3krVnFzK3oyZWdENEhESEd0bTJHWWF3WmRBaWhwczl0MjBRZjhnRUFYNFVLYUFEZ3krdTZMcVdQYXV0bXM2NStzVjczSVlTanhhSkdIN1A1ck8zYU1ZK2JQcUtiT1FINGZEV0REaUhFRUtYUEFNRFhwd0lhQUhpbWd6MmdQOGxOM3dBQUFMOE9GZEFBd0ZmVk5DbUVjTE5jMXBMbjlXbzk5RU9UR3RWNEFGT29mWiszcDlSKzBOOXFQQURBcjBZRk5BRHdURHM5b0d2ZjUwOHUxYmJkZkRGZkxWZWI1eENtSmoyamtocUFUOXArNm1CdHhMSHBCOTIxN1NNYmNaUlM2cHliTHdBQUhrOEZOQUR3VmNVWXprN1A1bmVKYzl1MXIxKy8xcGNEWUFyak9HNzNmZDd1QnoyTzQ3Y2VIUUR3UzRndkgxR3BCQUQ4WlBadnZxNVRTaW1ucDZmZllrUUFUR0lZeHlhbDdjcmxVc3FZYy92b1QvNHVMaTVTdWkxZDJxK0FWaE1OQUwrVS8vNzN2MDlkUkFzT0FPQURYVUVCZmpMN1FYT004ZkhwTXdEQVo5S0NBd0FBQUFDQVNRaWdBUUFBQUFDWWhBQWFBQUFBQUlCSkNLQUJBQUFBQUppRUFCb0FBQUFBZ0VrSW9BRUFBQUFBbUlRQUdnQUFBQUNBU1FpZ0FRQUFBQUNZaEFBYUFBQUFBSUJKQ0tBQkFBQUFBSmlFQUJvQUFBQUFnRWtJb0FFQUFBQUFtSVFBR2dBQUFBQ0FTYlRmZWdBQXdIY2t4cGh6L3RhakFPQTdFbVA4MWtNQUFINWdBbWdBNElOU1N0TTAzM29VQUh4SFNpa3lhQURnMmJUZ0FBQUFBQUJnRWdKb0FBQUFBQUFtSVlBR0FBQUFBR0FTQW1nQUFBQUFBQ1loZ0FZQUFBQUFZQklDYUFBQUFBQUFKaUdBQmdBQUFBQmdFZ0pvQUFBQUFBQW1JWUFHQUFBQUFHQVM3YmNlQUFEd283bThET3QxS09WYmp3T0F6eE5qbU0zQzZlbTNIZ2NBOERNVFFBTUFUL0VOMCtmZmYvOEdHd1g0aWVVY2JtN0M1YVVNR2dDWWpoWWNBTUJUcUgwRytHbWtGSTZPd25yOXJjY0JBUHpNQk5BQXdGTklud0YrSmlsNVl3Y0FKaVdBQmdBQUFBQmdFZ0pvQUFBQUFBQW1JWUFHQUFBQUFHQVNBbWdBQUFBQUFDWWhnQVlBQUFBQVlCSUNhQUFBQUFBQUppR0FCZ0MrbHJZTmJmdXRCd0VBQU1EWEk0QUdBTDZLdGcwdlg0YVhMMlhRQUFBQXZ3NEJOQUR3VlJ3ZjczNEJBQURBejA0QURRQk1iellMWFhmN2RkZUYyV3lpN1F6RCtNKy8vK3Y3ZnFMMWI3dFpMaTh2cjU2eFlNNzUzZnYzd3pCK2tXSFVYZjc3N3pmYi85MHNsOE13dm52L1B1ZThQZlBsNWRYTmN2bEZ0dnZKVWUxdi9aTTJSNmFVY241KzN2ZjlaajM3STMvcXZ1U2MzNzU5OXpuWHhtWlV6MTdEOHp6dllENmc3L3UzYjk5OXdSWHUrL3lqL1VsUDNZdk5DM2IveXZuaVJ4Z0FnRzN1Z1FVQXByZFQ5WHg4SE5icktiYXpYQzRYOC9scXRlNDJlZmZQcm0yYlAzNy9MWVJ3czF6MjYvWFoyVm1NTVlSd01PQStQVDM1YXFONjlmTGxzeGVQTWI1NDhTTGNzeGZWVjlzWEFBRGdjd2lnQVlDSkxSYWhhVUlJNGVvcWhCQk9Ua0xUaE1VaWZPbFMzSnh6enVQSnljbkY1ZVV3akczYmhCQXVMNjlpaXV2VnV1Lzc0K1BqMDlPVFVzckZ4VVhiZGRmWE4za2N6MTZjSFMwV201WFVuNmJVWEY5Zmh4RHFJdUd1M0RLRXNGak16ODdPaG1HNE9MK29pMndub1p2WnVxNTcrZkpGU3FtdWNMbGNoUkJldjM3VnR1M2w1ZVY2dFg0M3ZILzE4bVVkWkIxbjB6WkhpMFdkLytqb3FHM2IvWEhtbk04dkxrNVBUamNMUHV4bXVieTZ2RXBOVTdlMTJjcitPSGVPUUIxdzNka1F3djVJaG1HOHZMcnN1bTU3L1p1VjFKKytPRHZMdWJ4Ny96NlA0LzQ4ZGE4M3gvbms1SGpyeUx5NHZyNCtPanFLOGQ3YjllcStMT2J6ZytkcmYzY1dpL24yOE9xbzZ1N25YT3BvVTByYlIzZ3p2SjJMWkg4TkthWEhYR25qTUY1Zlg5OTNiWFJkVjQ5YmluRXpzV21haTR1THZ1L2Y1L1BObVhyR21yZkhmTHoxZ1dtSEFpQUFBQ0FBU1VSQlZORE9oVjAvdmRpM21XMnp3cjd2cjY2dlF3anIxWHB6Y2c4ZTdjMGFibTV1NmlhR1lieTV1YWxuNnVBUnFPZGllNUg5SS8vd1hseGVYcFZTVnV0MUhzYzZzVzJhRU1MTmNsblBhUWhoNTV6dXZGanFsUG95cnhOTHlkdTdVTWNaWTl3LzFCczU1L2Z2YjZ2bU54Zm5adUxtZk8xUDJiL0F0czlwdlNEM3B4dzhkd0FBMzV3QUdnQ1lVb3kzNWMrbDNDYk94OGUzRTFlclVNb1gzTlE0amlrMVRkUE01L04rNkRkWjU4M044dFhMbHluRkd2RzBiUnRDV0MxWHY3MStsWE81dURqdjJtNG5HTTE1L1BQUFA0WmhlSDkrc1Znc1FnanZ6eTlxZkh4eGNYRjFkWDE2ZWxKVHYrMjRNK2Q4ZFgzOTIyKy90VzF6czF5dTF1dWp4ZUxxNmpxbDVxKy8vdXo3L3YzNXhhdVhMMDlQVDNNcGp3eVI5OGY1K01yaVlSam44L2xmZi8xNWVYbDFmWDFWbytUN3hybFphalBnR29vTnczRHdpTlgxdDAzNzExOS8zaXlYZGYwNzhXVUo0ZnI2NnVXTHM1cFhMcGZMbmJDK0h1Y1F3dVhsMVRqbXpaRnBtcWUxaWRzNVg5c0g5dXJxT29SUWYxb3p5cHp6eGNWRkhkWGw1ZFhsNWVYcDZXbUtjUnpIbE5JNGppbkdwa2szeTJWZDdUam1kKy9mdDAzVDNqMC9zNjdoNU9UNGFMR29hNmpIOXVDVk52VDk3Nys5cmxzL2UzSDI1NTkvWEZ4YzNIZHQxS042Y25MODRzV0x5OHVyR25lZW5aMXRNdG1QenUrRGE5N3NkVjF6U25GN3pKc3I1UEx5OHJmZmZtdWF0TG13RDE1SWRiWjZ3ZHpjM05SZFc2L1dyMSsvZXZuaXhjWEZSVDI1KzBkN28ybWFYTW80NXJadCtxRnZ1N2JHeER2ai9OU0p6Z2YzWXYvbEdVSVlocUZlc2UvZXZ4K0dvZXU2bWc2UHcxZy9odG5aeDUwWHl6QU15NXZsSDMvOFhqOWRXQzZYeDhkSEgrMUMwOVlmN1p6RXplVlhTcm04dkZ3Y0xWNi9malVNNDhYRitUQXNtaVpkWGw2ZW5wNTBYWGV6WEY1ZjM5U1BYcmFuSEI4ZjdWeWlaMmRueTlWcTg4Szh2THljejJhcjlYcG55czRWQWdEd25mQnZGQUJnU2tkSG9ZYVNtMmh5OCszUjBaZmQxR3ExbnM5bklZU3U3WVorS0hmcDltSStiOXNtcGJRNFdxeFd0NjAvRmtlTGxGTGJObDAzNjRmZFRyWGRiQlpqYkpxbVprbWw1Rm5YdG0wYll6dzZPdXI3L3BQdFlvOFdpMXF3M1BkOUhWWGJ0ck91TGVWcGZXWWZIdWZEbWhSclVsd0g4TUE0dDZlY25wN1UvQzdHdUIwRTc0K2tTYkdtOC9QWnJBWnpEd3ltNjdyN21tYkVHTS9PSGx2VGZYamxINSt2alZKS3p1UFIwVkdNc1czYldwWTdqbU1Jb1dtYUVNSmlzY2lsaEJCU2F1cTFzVnF0dTlrc2hOQ3YxM1cxYmRzczV2TmgvTkFNSk9jU1U1elBablVONHpqV2ZUOTRwZFdWeEpobTg5bDhOb3N4cHRTRUVPNjdOaDV6MWg1ZTg4NWV6N3EySC9xZE1jY1VRd2o5MERkTjB6U3BYdGc1aitYUVowSnQyN3grL2JvZTIxcEhmRHVBcm11YUpzWllqOWpCbzcyUlVtcWJ0cFJjU2huNm9XdTdnK044ZUpjUDdzVjlMOCt1NjFKS1RaTm0zYWRyYnZZUGU5ZDFyMSsvcXBGdTB6WWhoQmhqaXJFZitsSkt2MTdQNTdPSFgrQzFrMHg5ZmFVVVkwb2hoSEhNdVpSNitSMHRGcWVuSjRlbTdGNmkyK2NscGZUaXhVZDNMZXhQQVFENHJxaUFCZ0FtazlKSEtmUE8zZjFIUjJHNURGL293VjgxQ2RyY1hKK2E1bWc4cXBGWmN5alozTTdSUHZuVDdmQXh4bFJqcjMwcHBkT1QwM3JqL0taNVJRaGh1eFMwbTgyYUJ6ZjlwSEUrTEthVURnMTFmNXdIV3h6VWI0L3V6dUQrU081Yi80Y1pRamc5UGQzcExiRDVhZGQxd3ppK2VmTlArT3dHQXZjZHBYSlBMTjczL1QvLy9GdS9UazJUYzVuUFp6YzNOK09ZaDNGWTNJM2s0dnhpMDJqbCtQZzQzQVdxcGVTU2J3UEJUYkFZbm5XbDdWd2JYWnMrZVZRL3VlYnR2ZDVLcFQrTWVkdHl1YW85SEVJSVhkZVZVZzUyNGRoMEl3a2hiSkxsbWx3ZjNPNUI4L2xzdFZyWHRpcE5rdzZPODJFSDkrSytsK2ZCMDNHZi9jTyszZUFpaEhCOGZGeWo5bkVZeC9aRFpCejJUK0pXRjQ3dDFpV3BPWHdpRHU3VS9pVmFpNzcvL3Z0TnVPdjFzVC9sOGZzTEFQQTFDYUFCZ01uc1BIdHd2MER2K0RoY1huNlJUYTNXNjZaSnIxNzlVUk94bStWeTAvQmh2SHVRM2JqMVJMdGhIR3ZjbHZQWWhFOEVWVzNUYkNvejd3dnlidWZjZWlUZzFkWDE4ZkZSVExIMkx0ak04M0QxOUU2Szk2UnhQdDdPT0RlMXlhV1U2K3VyMnVLZ0JuQVBqS1RrbkhOSktlUmN5ajA3bFZKNi9mcFZDS0h2KzlwSllEdXlyUFhYdHgyTm0rWkowZnhqN0JSeGIrekg3am5IWE1vdzlFMXFOb3ZzaEhxYkt0VHRsSE43M3c5ZWFROE5iKy9hZU9DaGk0KzN2ZGViODNYZkJ5ZjdYYlAzOVgzZjkzMXRSbEg3TW45eXV3YzFUWlB6dUZxdmF2K05FTUwrT0xmbjMwNlc3elp4WUM4ZS8vSjhrdVZxRlVMNDg4OC9Zb3czeTJVOXAxM2JyVmFyY1J4cS80MmM4LzVKM01nNVgxNWUxYXVvOWhZL3VBc0hkK3BnUys1NmQ4SjJtL0w5S1Y5azN3RUF2aXczYWdFQTAyaWFNUC80UVdRcDdXYlE4M240RXBsanZTTytkaVNvVTlxbTJkeUpYNy9ZdmxrK2hOQ3YxelhxSGNleDNuci9nQmpUdWgrR1lTaWwzTnpjMUZ2NzkyZTdyUjIraXlPYnRxbHRCNWJMWmYzcFAvLytyejZPN0tDN0lZM2I4enhwbkkrMFA4NTdaaHMyNVo4SFJ6TG1VbnNtYkRvNTdLeWhsTnArOXpaR1RLblpEdFJ1bHN0Tkc5OFkwd1BQRzN5MldySjZjM05UU3Ruc1R0TTA0NWlIWWFoamVQdjJYYzY1bnFuMzc4OXJOcnE5WU03NTdkdDNOMXZQekV3cGxseFc2M1VJWWJsY2J2Yjk0SlYybnlkZEcwL2Q2NVNhelY2dis2RnJ1NlpKS2NiTm1HdEsyN1ZkMzYvckNicTh2RG8vUHovWWdtT2pYdjhQYkhmL2FHOUxLYVhVM053czYvVnpjSndoaEdFWXgzR3NMK3FkTlJ6Y2kwZStQSjh0NTd5OFdXNFA0UDM3ODNwK0gzOFNWK3ZiNDF3dm50cGs0MmE1UEQ4L2ozRjNTa29ITHRITHk2dk5SWmhpVENudVQvbUNldzBBOEFXcGdBWUFwbkd5VjFhNVV4QzltZTM4L0RNM1ZWUFI0NjE4dHRiUzFxQ3FiZHYvdlgyWHgvSHN4Vm10NFEwaHBOVFU1Zyt2WDcvNlpObGcyell2WDV6Vlcra1hpL25KeVhFSW9XMmEycDloVTBEYXRzMThQcTgzem05YWNKeWNIRjljWE5UYjVEY0RTREcrZS85KyszbGx4OGRINzkrZnYzbnp6OUhSMFhiejNKMXhmcEZTeDRQanJHb1gzYmR2MzEyY1h4d2ZIeDhmSHcvaldKODR0ek9TWVJqYnR1blg2NHZ6aTlwZVk3OTFRNHp4NVBqNGYvLzdYd2loenJQOTA4VjhmckgrY0dUYXR0azZNaS9DRjdLWXovdjErczJiZnhhTGVXMG5rbEk2T3p1cmJVWlMwN3g2K2JMbWxmUDViTGxhYlZMK284VmlIRzQ3aEJ3ZjM1YUUxeDl0MXJDejd3ZXZ0QWZzWHhzSEs2QnJaUG4rL2ZsT0Q1TlBybm5uQ2o4K1BxbGpQams5cVlsNTJ6YW5wNmZiSjZnK0dIRG5HWDF0MnpaTit1ZWZmMVBUbkoyZTNDeVg5KzNhL3RIZU1aL1BjaDQzbjFVY0hPZkp5ZkhidCs5UzB4d2ZIdzBmNTdreHhvTjdzZi95ZkVEVDNyNXlIKzc2TXAvTmxqZkxOMi8rNmJydStQaG90VnJWL2lUZGJEYU9lVk90djM4U04ydW8zY0Ryd0U3UFRtdUg2SlM2emVXMzZVdnp3SlROSlZyZkl1cklhM1BxL1NrUDd6Z0F3TGNTWHo3NlFlb0F3RTlqUHorcVUzTE9MMTQ4bVAzOSsrK2pOdEIxWVg4OU5VdmFiMVI2Zmg0ZVUvdjUrKytQMnZUSDl0TzAydkRoNk9qb08yK1ordjJNOCtCSWhtRzh2THA4Y1hZbTlxcjJyN1FmMURDTTR6ak1kMjVmK0VKK21xUDBzL24zMzRmZllNL1B6emV2OUlNZk5VMDFNQURnKy9QZi8vNzNxWXY0Z3dFQW1NREJZdWZ6ODhQRnpnZG5CcjZGY1J5YTVzdmZKVmxLT1Q4L3ozbGNUQk50QXdEdzNkS0NBd0Q0MHJvdXRJZitqWEY2ZW5qK3RnMWQ5NmdpNktmYmY4QmFqUEVUVmQ3ZmgrOW5uQWRIMHJiTkt6ZlNiZm5rby94K0ZCUFZQbjgvMXpNQUFGK1pBQm9BK05MR01ZempnYWNMM2hkczFma0JBQUQ0NlFpZ0FZQXZMZWZ3N3QyM0hnUUFBQURmbmg3UUFBQUFBQUJNUWdBTkFBQUFBTUFrQk5BQXdNL2dacm04dkx6NjVHeDkzNStmbjVkU1Bqbi96WEw1OTk5djZuODN5K1hEcXkybG5KK2Y5MzAvRE9PNzkrOXp6Zy9NYzk5S0xpK3ZQcm1oS1R3dzVrY2UxVS9LT2I5OSsyNW4zNSs2djkvcStEemJKOC80ZCtqZ21kcjN3RFd6clI2QnYvOSs4MFd1b3VkNTBsbDQ1SDRCQVBBa2VrQURBTCtRcnV1NnJ2dmtiRGZMNWZKbStjY2Z2NmVVY3M3djM1K0hFSTRXaS92bWp6RytlUEVpaERBTVA5N1RGTnUyZWZYeTViY2VCVCtTUjE0enBaUVFRbjBkVFQrb3d6YXZ6Y2Z3V2dBQW1JSUFHZ0Q0NGZWOWYzRitVYjgrUFQzcCsvN3QyM2NoaE1WaWZuWjJGbVBjbnZQbTVtYXhXR3pQdjcvQ2NSaTdycXVwV1VwcGNiVG8xK3NtcGVWeWVYWjJGa0s0dUxqb1pyT2p4V0lZeHN1cnk3T3pzNnZMeS9sOGNYMTkzZmY5KzN6Kzh1V0xsTkxsNWRYMTlYVUk0ZlhyVjIzYmhoRDZZWGgvZnBISDhlekYyWGFpZmJOYzFqbERDRWVMeFdiQm5kbENDS1dVaTR1TDVYSjFjQWN2TDYrR1lWaXYxM1hCL2ZYVVBMM3YrOFZpbmtzNVBUa05JVnhlWGI0NE84dTV2SHYvUG85amFwcFhMMStXa3JlUDBtMXg2RGgyWGJmWnU0ZTN0Um5xWWpIZk9jS2YzTi9OU2F5Ylc2M1gyL1BYTCtyQmYzRjJsbEtxWi9iczdHd2M4L1pldEcxVEQ4djIrdXZBY2k3cjlmcjE2MWZibjBrOGNzNkRaMkZuekRzWDN2dnppODE0RHE2aFhsY3BOWFVBeDhmSE94Zm41dHh0ZmxxUFFOZDFWNWRYbS8ydGh5TEdkSE56c3psWk93ZS9udG5OSXZ0bmFtZk5MMStjWFY1ZTlYMi92ZDBYWjJmak9GNWRYNGNRMXF2MTlnSGZIdTI2SDJxcXUzUDk5SDEvZVhrNTVqTHIyczFsZkhDUHRxK0g3V05Wejh1clZ5K1h5MlhiZGRmWE4vV1ZOUTdqOWZYMTVpeGNYRndjSFIxMVhiYzV1WnRqdXpObDU0cmEzK0wrMmRsZkp3QUFPd1RRQU1BUHIrdTZtanJWQ09uOStVVU5mQzh1THE2dXJ2ZFRvZTM1RDY1d1BwKzlmZnN1NTdIbVlrZUx4ZEZpVVcvTXIwV2RJWVM3YjNQYnRDbkdFRUpLOGV6c2JCTmcxWDRSZi8zMTV5YWtEaUVNZmYvN2I2K0hZWGgvZnRHMTNTYXRPMW9zeG1GczJ1Wm9zYmhaTHZ1Ky8rT1AzMnNpM0RiTmRrSjZkWFdkVXZQWFgzL1dnRzhZaHAyYTdwVGluMy8rRVdPOFdTNXpIdi84ODQrYXlkYjFYRi9mZEYzMyt2V3JtK1h5NnVwNnMxUUo0ZnI2NnVXTHM2N3IrcjVmTHBlbnB5ZWJvNVJ6dnJpNHFEKzl2THk2dkx6ZG5ZZTNWZGYvNTU5L0RNTlFzN3lObmYzZFdiWnBtcXZyNjk5Kys2MXRtNXZsY3JWZWI4Ly93SlZRU3RuZmkvMzExdzhEMnJaOTllcWpjdGY5STMvZm5QdG5ZWC9NaS9sdG1Gc1Q0ZDkvZTcwZFNlK3ZvVzZyRHJWZUlZdkZZanV3dnJ5OFhCd3RYcjkrTlF6anhjWDVNQ3hDQ01Nd3RrMzcxMTkvM2l5WDE5ZFg5YndzbDZ1ekYyZC9uZjE1ZVhsMWZYMnpmWjMzZmIrcDdyKzh2S3FINk9DWkdvWnhQcC8vOWRlZmw1ZFhOVDBQSVd5MnU3RmVyVisvZnZYeXhZdUxpNHU2dHJ2ck1MMTgrZUw4NHVMMDVEU2wrUDc5K2NuSmNmMndZWFA5akxsc1o5YWI3ZTdzMFRqbXk4dkwzMzc3cldsU2ZWR2ZuQnh2emtzcFpibGNibDVaYjkrK08zdHg5dWVmZjF4Y1hPeWNoWHBzdyszbk5HTXBlV2ZLOWhoMjNrYnFGbmZPenY0YWR2WUZBSUNnQnpRQThKTXBKYys2dG0zYkdPUFIwVkhmOTgvbzZOcDFYUTJWM3J6NTUrKy8zOVMyMFRVOUhNY3g1ektielVvdU9lZlZhajJmenc0Tm8vVHIyeC9WKy9wclNOM05aakhHcG1rZUNLckdZVndjTFZKS2Jkc3M1dlBWYXIzOTA5UFRrNXJ4eFJpYjVzQy81VkpxWW94MUFIVnpkVDNET09hY2gzRllMQlloaFBsc2R0OFl1cTdiaWViSGNRd2hORTBUUWxnc0ZybVVHc1Evc0sxU1NzN2owZEZSakxGdDIvMGk2TzBEdGJQczlndzEvYi92V0QyZzdzVUQ2Mi8yZHYrK0k3OC81OE5uWVh2TS9UQmNYVitmbnA1dXA4OFByT0crSzZTMmtxaXJUU25HdTZMbUpzWE5DYzJsakdPdSt6NmZ6VUlJaThWaUdJZnRsMEQ5K0tIV1JOZjl1dTlNTlNsMmJWZG5XOHpuYmR0c2IzZDdoVTNUeEJpNzJZRVhRcFZ6aVNsdWhqU09ZeDFuazFKS2NXZm0vVDNxaDc1cG1xWko5VVdkODFndnYrM3pVbzliakdrMm44MW5zeGhqU29jdjd4amoyZG5wOXVIZG4zTGdiYVNVaDgvT3pob0FBTmhRQVEwQS9GUzI0OHNZVTl5THR4NnA1bjIxZWV6bDVWV3RwTzVtczJFY1F4amJwaGx6SG5NdXBjUjRJQVV1ZDFIZ2pyYjVSRVJWMDhBbTNNN1d0TTM0Y1YvcFRTdU0rdTNSMGRIT0dyWlR1WXZ6aTAwYmplUGo0OXlXY2s4Y0gwTTRQVDJ0UFJNTzltM28rLzZmZi82dFg2ZW15WGszQWR6WlZwa2RQZ0lIN1N5YkZ1bjA1TFR1NW42YmtRZkVHSGYyb2k2NHMvNHdEMkh2WER4dzVQZlAydjVaU0dsM3pMZHo5bjJUbW5FY2Q0N25mZWZ4Z1N0azB4UWloSkR1Wm9zSE05d20zWGZFdGx0LzFLTngzN1Y2Y00zN0h0alcxa1p6eWJlM0RueVVuaDlhOXVCMmw4dlZac3hkMTlWMWJSK3JUNzZ5dXE0Ynh2SE5tMy9DWFgrVi9TbWJtZTk3RzluWnlnTnJBQUJnUXdBTkFQeFUycWJwNzc3ZWpyMGVyNVJ5ZVhsMWRIUzBxV2VjejJjM056ZWxsSzd0VnV0VkNDRzJYZTBTRzBJNFdJWjhYM255SisxVWJ1Nmt6N1hGUkcxbFVKUEVoOWUyMCtBNDU3eGZ3YnFSVW5yOStsVUlvVGJuM1VTbzFTZUQ0SjF0bFZJZWZ3UjJsZzBodEczengrKy9oUkJxcTVCUGR0ZmRKSVk3ZTNGNmVucHdiUHRyZVBqSWI3dnZMT3lNdVRadE9EbzZpakZ0R3JNOHZJWUg1Snd2TDYvcWp1U2N6KzhXS1RublhGSUtPWC80ZEdFYzYwY2pjZjhsc0Z5dFFnaWJ4aW5qTUQ3N1duMjg3UXgzZTV3SEhkeWpuUTdMQjgvZ0o5WEs5SHJBYTVlWW5TbWJENU1lL3pheXY4NW5EQXdBNE9lbUJRY0E4Rk9KTWEzN1lSaUdVa3A5Q0Z1NlAzSzladzJ4N2RycjY2c2FjdFgxMUY0VEtjVnhHUHErVHlsMmJUZjBmZHUxQnpQWm1tYldIZzdETUw1OSszWWM3dzAwZHpSdHM3eFo1cHlIWVZ5dVZnZGJmSVFRaG1IWTFJUWVIRUEzdTgzTmM4NXYzNzY3V1M1VFNtM1RMcGZMRU1KcXZkNXVlbHRLZWZmKy9XWkszZDhQUTJxYWNjekRNSVFRYnBiTHQyL2ZiWGQxT0xpdDdZa1BEUFhnc3JmVndYZWIyTytBc1hVUXhuRWNhNStORUVMdDNieTlGeW1sL2ZYZnQ3WkhIdm1QQjNDN2F3K011VzJidG1sWDYvWERhM2k4N1hNMzV0SVBmUWhoMDZjaWhORDNmYjNlVnF2MWZTK0JuUFB5WmhrK1BnWFBHTXhqcEJSTEx2VUlMSmZMelRnUDJ0K2pydTM2L25hWEx5K3Zha3VjcDQ3aFpybTh2THlxWDhlWVlrejdVell6SDNnYk9mUXlmMkFOQUFCc3FJQUdBSDRHYmRQVUhndW5weWN2WDV6VlRnV0x4YnhXb1Q0dy8yS3gyS2xPRFNIVVcrbnJuZlZocS9veXBaUlNrMEpJS2RWU3p0b2tkNk1HYmUvZm43OTgrZUxrNVBqaTR1THZ2OStFRUY2L2Z0Vjhxa1ZBMDk0T3FUNXdyL2E3T0h0eHRsMVRXVHZTdm4zNzd1TDg0dmo0K1BqNGVCakgrNG91NjNycVhod2ZIOWVkT2o0K2V2LysvTysvMzV5Y251eTB3VDA1UHY3Zi8vNFhRcWpOSzNhTzZ0blpXVzBaa1pybTFjdVhPNW5td1cwdDV2Tit2WDd6NXAvRlluNndWY2oyL3U0c081L1A2eEhZdExQWW52LzJKTGJOeWNueDI3ZnZVdE1jSHg4TmZaL1NnYjNZWC85OThlWCtrYit2Vm5yL0xCd3R1djB4Ynh3Zkg1MWZmSGpzNU1FMTFJY1EzaWVsdERoYTFBdjc5T3gwMXJXbDVCaFQyemI5ZW4xeGZySGRjbVEybjExZFg2OVg2LzJSekdlejVjM3l6WnQvdXE0N1BqNWFyVmFsbElmUDFPZExLZFhyWjJlY0IrM3ZVZHMycDZlbjI2ZjFrUzFadGkzbTg0djE3ZXZ4N01WWjJ6Wk5rM2FtYkdMOXRtMGU4emF5djg1YW5INTZvaDgwQU1BSDhlWExsNStlQ3dENHVlekhhblZLenZtMjdmRjkvdjEzdWxGOXd1Ky9mN05OLzR6NnZyKzh2TnJ2OWN3UFpCakcvWTlQK3I2L3VibDVmT1BzNzhyQlBXSnkvLzc3OEJ2cytmbjU1b3djYU52OUExNXBBTUN6L2ZlLy8zM3FJaXFnQVFCK0Zkc1BvRHRZeUF3QUFQQmxDYUFCQUg0Vk1jWVhMejVSNDg0UHBHMmJWM3UzTTNaZDkrTStDdS9nSGdFQThFTlQ4d0lBQUFBQXdDUUUwQUFBQUFBQVRFSUFEUUFBQUFEQUpBVFFBQUFBQUFCTVFnQU5BQUFBQU1Ba0JOQUFBQUFBQUV4Q0FBMEFBQUFBd0NRRTBBQUFBQUFBLzcrZGUxdHE0OW9DS0xvYkNZRXZsZnhaUGphZmxQZFVuVXFadTZRK0QzSWMyOWdZc0tjbGl6R2VVRmRUckNjMVRMWVdDUUVhQUhpS2FkcjNCQUQ4T051dE4zWUFJQ1ZBQXdCUHNWcEpGUUJIWXJzZFYxZGp0ZHIzSEFEQU1WdnVld0FBNEpmeTl1MTQ5MjdjM281NS90ay8rdSsvZi9aUEJEaHUwelJXcS9IMjdiN25BQUNPbVFBTkFEeVJWQUVBQU1EaldNRUJBQUFBQUVCQ2dBWUFBQUFBSUNGQUF3QUFBQUNRRUtBQkFBQUFBRWdJMEFBQUFBQUFKQVJvQUFBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFDQWhBQU5BQUFBQUVCQ2dBWUFBQUFBSUNGQUF3QUFBQUNRRUtBQkFBQUFBRWdJMEFBQUFBQUFKQVJvQUFBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFDQWhBQU5BQUFBQUVCQ2dBWUFBQUFBSUNGQUF3QUFBQUNRRUtBQkFBQUFBRWdJMEFBQUFBQUFKQVJvQUFBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFDQWhBQU5BQUFBQUVCQ2dBWUFBQUFBSUNGQUF3QUFBQUNRRUtBQkFBQUFBRWdJMEFBQUFBQUFKQVJvQUFBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFDQWhBQU5BQUFBQUVCQ2dBWUFBQUFBSUNGQUF3QUFBQUNRRUtBQkFBQUFBRWdJMEFBQUFBQUFKQVJvQUFBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFDQWhBQU5BQUFBQUVCQ2dBWUFBQUFBSUNGQUF3QUFBQUNRRUtBQkFBQUFBRWdJMEFBQUFBQUFKQVJvQUFBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFDQWhBQU5BQUFBQUVCQ2dBWUFBQUFBSUNGQUF3QUFBQUNRRUtBQkFBQUFBRWdJMEFBQUFBQUFKQVJvQUFBQUFBQVN5MzBQQUFEOGVqYWJ6YjVIQU9BSFdDd1creDRCQURoeUFqUUE4R1NDQlFBQUFJOWhCUWNBQUFBQUFBa0JHZ0FBQUFDQWhBQU5BQUFBQUVCQ2dBWUFBQUFBSUNGQUF3QUFBQUNRRUtBQkFBQUFBRWdJMEFBQUFBQUFKQVJvQUFBQUFBQVNBalFBQUFBQUFBa0JHZ0FBQUFDQWhBQU5BQUFBQUVCaXVlOEJBQUFBanRuTjdlYmllajNQODc0SCtjUTBUVy9PbDJlcnhiNEhBUUNPbkJQUUFBQUFvUU9zejJPTWVaNHZydGY3bmdJQU9INENOQUFBUU9nQTYvUE93UTRHQUJ3VEFSb0FBQUFBZ0lRQURRQUFBQUJBUW9BR0FBQUFBQ0FoUUFNQUFBQUFrQkNnQVFBQUFBQklDTkFBQUFBQUFDUUVhQUFBQUFBQUVnSTBBQUFBQUFBSkFSb0FBQUFBZ0lRQURRQUFBQUJBWXJudkFRQUFBUGpjMmVuaXphdlRhWHIvOHVaMjgrN3Fib3p4K256NTZteDV0OTcrYzNFN3huajc2dlJzdGRodTUzZFhkM2ZyN1I0SEJnRDRJZ0VhQUFEZ3NPd3E4Mlk3LysrZm0vRnZaVDQ1bVhiUitZUGQ5WGtlbDlkcjlSa0FPRXhXY0FBQUFCeVcxZWxpbnNmVjlYcjM4dDNWM1dZN0x4Y25aNmVMRC9lOFBsL3U2dlBGMWQzTjNXWlBrd0lBZklNQURRQUFjRURPVGhjbjB6VFA4M2FlUDF6Y2J1ZHBHb3ZGKzVVYzB6U2RyNVpqak92YnRmb01BQnd5QVJvQUFPRGd6R044dkZWanU1M0hHQ2YvN29SZUxxYmRsNnVQemtRREFCd2dBUm9BQU9EZ1RHT2NMdi83ZSsza1pCcGpmSHdtK3VwbXZkbk9pNVBwN2F2VFBjd0hBUEE0QWpRQUFNQUJ1Ym5iYk9kNW1xWVA1NTNIR0NjbjB6eVB6ZVo5Z0w1YmJ5K3YxN2QzbXpIRzZuUng1aHcwQUhDb0JHZ0FBSUREY251M21hYngrbnk1T3dUOTI1dlY0bVJhYjdhZnJYdSt2RjdmcmJmVE5NNVdBalFBY0tDVyt4NEFBQUNBVDF4ZXJ6ZWIrYzJyMDkvZXJIWlhibTQzNzY3dTd0OTVjN3RaTGs1T2x5ZXZ6NWVYMSt1Zk95WUF3TGNKMEFBQUFBZm41bTd6Mlhubm5jdnI5Y2VoK1d1M0FRQWNDQ3M0QUFBQUFBQklDTkFBQUFBQUFDUUVhQUFBQUFBQUVnSTBBQUFBQUFBSkFSb0FBQUFBZ0lRQURRQUFBQUJBUW9BR0FBRGcyNlpwMnZjSUFNQ3ZSNEFHQVA0akxnQUFBUEFEQ2RBQUFBQjhsZjlOQWdEZlE0QUdBQUFBQUNBaFFBTUFBQUFBa0JDZ0FRQUFRZ2U3d3VKZ0J3TUFqb2tBRFFBQUVIcHp2anpBMUR0TjA1dno1YjZuQUFDT24xODRBQUFBUW1lcnhkbHFzZThwRWdjWTFnR0FRK01FTkFBQUFBQUFDUUVhQUFBQUFJQ0VBQTBBQUFBQVFFS0FCZ0RHc01jVGdBZDVUQUFBenlOQUF3QUFBQUNRRUtBQkFBQUFBRWdJMEFEd0VuM3hrOVErWGczQTQzbHFBQUNQSVVBREFBRHdFSzBaQUhnMkFSb0FBQUFBZ0lRQURRQXYxTmUyY0d5MzI1OC9EQUNIYWJ2ZDJ0b0VBSHdQQVJvQStNVEZ4WVVHRGNBWVk3dmRYbHhjN0hzS0FPRFh0dHozQUFEQTNrelROTS96WjFmR0dKZVhsNTlkSDJQY3Z3TEFNYmwvcUhuNjExN21BUUNPZ3dBTkFIeGlGeHErMXFZQmVDRWVlTnYzUkFBQUhzOEtEZ0I0MFI3dUN4SUR3QXYwOFB1L1J3TUE4Q1JPUUFNQUQ5bUZCdnMzQUY0Q2NSa0ErT0VFYUFCNDZlNXYyL2ppUGJzdmxHaUE0L1A0N3F4UUF3QlBKVUFEQUk5cTBCL3VySWNCNERCNUJBQUF6MkFITkFBd2hxd0F3SU04SmdDQTUzRUNHZ0I0ejdwbkFPNlRuZ0dBN3lGQUF3Q2ZrS0VCMkpHZUFZRHZKMEFEQUY4Z1F3TzhaTkl6QVBDakNOQUF3RmQ5Q0JCS05NQkxvRHNEQUQrY0FBMEFmSnNrQVFBQXdET2M3SHNBQUFBQUFBQ09rd0FOQUFBQUFFQkNnQVlBQUFBQUlDRkFBd0FBQUFDUUVLQUJBQUFBQUVnSTBBQUFBQUFBSkFSb0FBQUFBQUFTQWpRQUFBQUFBQWtCR2dBQUFBQ0FoQUFOQUFBQUFFQkNnQVlBQUFBQUlDRkFBd0FBQUFDUUVLQUJBQUFBQUVnSTBBQUFBQUFBSkFSb0FBQUFBQUFTQWpRQUFBQUFBQWtCR2dBQUFBQ0FoQUFOQUFBQUFFQkNnQVlBQUFBQUlDRkFBd0FBQUFDUUVLQUJBQUFBQUVnSTBBQUFBQUFBSkFSb0FBQUFBQUFTQWpRQUFBQUFBQWtCR2dBQUFBQ0FoQUFOQUFBQUFFQkNnQVlBQUFBQUlDRkFBd0FBQUFDUUVLQUJBQUFBQUVnSTBBQUFBQUFBSkFSb0FBQUFBQUFTQWpRQUFBQUFBQWtCR2dBQUFBQ0FoQUFOQUFBQUFFQkNnQVlBQUFBQUlDRkFBd0FBQUFDUUVLQUJBQUFBQUVnSTBBQUFBQUFBSkFSb0FBQUFBQUFTQWpRQUFBQUFBQWtCR2dBQUFBQ0FoQUFOQUFBQUFFQkNnQVlBQUFBQUlDRkFBd0FBQUFDUUVLQUJBQUFBQUVnSTBBQUFBQUFBSkFSb0FBQUFBQUFTQWpRQUFBQUFBQWtCR2dBQUFBQ0FoQUFOQUFBQUFFQkNnQVlBQUFBQUlDRkFBd0FBQUFDUUVLQUJBQUFBQUVnSTBBQUFBQUFBSkFSb0FBQUFBQUFTQWpRQUFBQUFBQWtCR2dBQUFBQ0FoQUFOQUFBQUFFQkNnQVlBQUFBQUlDRkFBd0FBQUFDUUVLQUJBQUFBQUVnSTBBQUFBQUFBSkFSb0FBQUFBQUFTQWpRQUFBQUFBQWtCR2dBQUFBQ0FoQUFOQUFBQUFFQkNnQVlBQUFBQUlDRkFBd0FBQUFDUUVLQUJBQUFBQUVnSTBBQUFBQUFBSkFSb0FBQUFBQUFTQWpRQUFBQUFBQWtCR2dBQUFBQ0FoQUFOQUFBQUFFQkNnQVlBQUFBQUlDRkFBd0FBQUFDUUVLQUJBQUFBQUVnSTBBQUE2YmlDdHdBQURJcEpSRUZVQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJQ0ZBQXdBQUFBQ1FFS0FCQUFBQUFFZ0kwQUFBQUFBQUpBUm9BQUFBQUFBU0FqUUFBQUFBQUFrQkdnQUFBQUNBaEFBTkFBQUFBRUJDZ0FZQUFBQUFJTEhjOXdBQUFBQUFBUHg2L3Z6enovc1gvL2pqajQ5Zk9nRU5BQUFBQU1DVGZkYWF2M2hGZ0FZQUFBQUE0RGsrTHM3MzYvTVFvQUVBQUFBQWVMWmRkLzVpZlI1alRMLy8vdnZQblFjQUFBQUFnRi9QWDMvOTlkUnZjUUlhQUFBQUFJQ0VBQTBBQUFBQVFFS0FCZ0FBQUFBZ0lVQURBQUFBQUpBUW9BRUFBQUFBU0FqUUFBQUFBQUFrL2cvVGFwWUtzdnIrb3dBQUFBQkpSVTVFcmtKZ2dnPT0="
-              }
-            ],
-            "match": {
-              "location": "features/support/hooks.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1531991505
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "uri": "features/My_account/My account - create account.feature",
-    "id": "check-create-account-functionality",
-    "keyword": "Feature",
-    "name": "Check create account functionality",
-    "description": "",
-    "line": 1,
-    "elements": [
-      {
-        "keyword": "Background",
-        "name": "",
-        "description": "",
-        "line": 2,
-        "type": "background",
-        "steps": [
-          {
-            "keyword": "Given ",
-            "name": "open the site",
-            "line": 3,
-            "match": {
-              "location": "features/step_definitions/Settings.rb:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8796731860
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "close the newsletter pop-up",
-            "line": 4,
-            "match": {
-              "location": "features/step_definitions/Settings.rb:97"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 736350832
-            }
-          }
-        ]
-      },
-      {
-        "id": "check-create-account-functionality;fill-the-create-account-form;;2",
-        "keyword": "Scenario Outline",
-        "name": "Fill the Create account form",
-        "description": "",
-        "line": 33,
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "When ",
-            "name": "User click on Signin Register link from header",
-            "line": 33,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3842947993
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "User is redirected to My account sign in  page",
-            "line": 33,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 440949291
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "press on Create an account button",
-            "line": 33,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:9"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3256674689
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "Verify that Create My Account page is displayed",
-            "line": 33,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 121183260
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "user selects gender Neutral",
-            "line": 33,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:79"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 591282990
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "user fills first name with Firstname with last",
-            "line": 33,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:40"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 477800024
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "user fills mobile number on register page wit 6523145236",
-            "line": 33,
-            "comments": [
-              {
-                "value": "#And user fills last name with <lastname>",
-                "line": 13
-              }
-            ],
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:48"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 429910164
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "user fills email",
-            "line": 33,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:53"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 305656968
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "user fills password",
-            "line": 33,
-            "comments": [
-              {
-                "value": "#And user fills postal code with <postcode>",
-                "line": 16
-              }
-            ],
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:62"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 308494545
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "user fills confirm password",
-            "line": 33,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:66"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 243331263
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "fill birthday",
-            "line": 33,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Create.rb:40"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1825725477
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "check the checkbox Privacy",
-            "line": 33,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Create.rb:61"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 173363559
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "check the checkbox SMS",
-            "line": 33,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:70"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 186444247
-            }
-          },
-          {
-            "keyword": "When ",
-            "name": "press on Create your account button",
-            "line": 33,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Create.rb:31"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2826412292
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "user should see validation error Please enter valid 10 digit Mobile Number for phone",
-            "line": 33,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Create.rb:65"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 260259840
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "user fills mobile number on register page wit 0652145874",
-            "line": 33,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:48"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 582870838
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "user fills password",
-            "line": 33,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:62"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 219003719
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "user fills confirm password",
-            "line": 33,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My_Account - create_account.rb:66"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 217224897
-            }
-          },
-          {
-            "keyword": "When ",
-            "name": "press on Create your account button",
-            "line": 33,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Create.rb:31"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3386696641
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "verify that user is logged in and welcome Firstname with last is displayed in header",
-            "line": 33,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/My Account/My_account - Log_in.rb:40"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 204998109
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "features/support/hooks.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 391558948
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "uri": "features/My_account/Subscription_pop-up.feature",
-    "id": "subscribe-to-email/sms",
-    "keyword": "Feature",
-    "name": "Subscribe to email/sms",
-    "description": "",
-    "line": 1,
-    "elements": [
-      {
-        "keyword": "Background",
-        "name": "",
-        "description": "",
-        "line": 2,
-        "type": "background",
-        "steps": [
-          {
-            "keyword": "Given ",
-            "name": "open the site",
-            "line": 3,
-            "match": {
-              "location": "features/step_definitions/Settings.rb:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8758022252
-            }
-          }
-        ]
-      },
-      {
-        "id": "subscribe-to-email/sms;subscribe-to-email/sms;;2",
-        "keyword": "Scenario Outline",
-        "name": "Subscribe to email/sms",
-        "description": "",
-        "line": 37,
-        "type": "scenario",
-        "comments": [
-          {
-            "value": "# And site should be switched to <language> local",
-            "line": 33
-          }
-        ],
-        "steps": [
-          {
-            "keyword": "Then ",
-            "name": "close the newsletter pop-up",
-            "line": 37,
-            "match": {
-              "location": "features/step_definitions/Settings.rb:97"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 361052942
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "click on sign up now button from footer",
-            "line": 37,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 351700268
-            }
-          },
-          {
-            "keyword": "When ",
-            "name": "user fill the email address filed on the pop-up",
-            "line": 37,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1398154507
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "click on Submit button from the email pop-up",
-            "line": 37,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 394496694
-            }
-          },
-          {
-            "keyword": "When ",
-            "name": "user verify the validation message for privacy policy on the pop-up",
-            "line": 37,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:18"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 121214049
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "check the checkbox Privacy policy on subscription email pop-up",
-            "line": 37,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 225234320
-            }
-          },
-          {
-            "keyword": "When ",
-            "name": "user fills mobile number on email pop-up with 6583745896",
-            "line": 37,
-            "comments": [
-              {
-                "value": "#Then check the sms checkbox on email pop-up",
-                "line": 12
-              },
-              {
-                "value": "#And click on Submit button from the email pop-up",
-                "line": 13
-              },
-              {
-                "value": "#Then user verifies the validation message for mobile phone number",
-                "line": 14
-              }
-            ],
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 594514675
-            }
-          },
-          {
-            "keyword": "When ",
-            "name": "user press on link Terms of Use",
-            "line": 37,
-            "comments": [
-              {
-                "value": "#Then user press on language drop-down on email pop-up and selects <language>",
-                "line": 16
-              }
-            ],
-            "match": {
-              "location": "features/step_definitions/No_product_pages.rb:54"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 170249696
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "tou pop-up should be opened",
-            "line": 37,
-            "match": {
-              "location": "features/step_definitions/No_product_pages.rb:58"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 319290228
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "close the  pop-up",
-            "line": 37,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/Cart.rb:45"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 104242366
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "click on sign up now button from footer",
-            "line": 37,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 113590524
-            }
-          },
-          {
-            "keyword": "When ",
-            "name": "user fill the email address filed on the pop-up",
-            "line": 37,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 696361193
-            }
-          },
-          {
-            "keyword": "When ",
-            "name": "user press on link PRIVACY POLICY",
-            "line": 37,
-            "match": {
-              "location": "features/step_definitions/No_product_pages.rb:54"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 214435763
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "pp pop-up should be opened",
-            "line": 37,
-            "match": {
-              "location": "features/step_definitions/No_product_pages.rb:62"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 198893953
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "close the  pop-up",
-            "line": 37,
-            "match": {
-              "location": "features/step_definitions/LORA Common steps/CLP/Cart.rb:45"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 101944635
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "click on sign up now button from footer",
-            "line": 37,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 153752585
-            }
-          },
-          {
-            "keyword": "When ",
-            "name": "user fill the email address filed on the pop-up",
-            "line": 37,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 414002573
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "check the checkbox Privacy policy on subscription email pop-up",
-            "line": 37,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 120561719
-            }
-          },
-          {
-            "keyword": "When ",
-            "name": "user fills mobile number on email pop-up with 0583745896",
-            "line": 37,
-            "comments": [
-              {
-                "value": "#Then user should see validation <error> for phone field",
-                "line": 28
-              }
-            ],
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 467010499
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "click on Submit button from the email pop-up",
-            "line": 37,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 168789034
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "user verify the thank you pop-up after email subscription",
-            "line": 37,
-            "match": {
-              "location": "features/step_definitions/Storefront specific steps/My Account/NYX_AU_My account - Log_in.rb:39"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 437919176
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "close the newsletter pop-up",
-            "line": 37,
-            "match": {
-              "location": "features/step_definitions/Settings.rb:97"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 140063082
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "features/support/hooks.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 299649696
+              "duration": 1332528970
             }
           }
         ]

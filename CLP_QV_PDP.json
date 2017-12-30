@@ -1,0 +1,584 @@
+[
+  {
+    "uri": "features/CLP_QV_PDP/CLP.feature",
+    "id": "check-clp-functionality",
+    "keyword": "Feature",
+    "name": "Check CLP functionality",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "open the site",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16224116859
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "close the newsletter pop-up",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4816101444
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-clp-functionality;mouse-over-state",
+        "keyword": "Scenario",
+        "name": "Mouse Over State",
+        "description": "",
+        "line": 6,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "User do mouseover  on any category",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 468398087
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "he should see subcategories",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 395181866
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "press on any l2 category",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11737272469
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "l2 category is displayed",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 350294616
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "verify elements on l2",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 227287376
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "check olapic is present",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/CLP/CLP.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 913377953
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "hove on olapic image and verify that product is displayed",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/CLP/CLP.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4317928503
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "press on Logo",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4608065829
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3829542577
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "open the site",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14830249097
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "close the newsletter pop-up",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 718721071
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-clp-functionality;clp-sorting-rules",
+        "keyword": "Scenario",
+        "name": "CLP Sorting rules",
+        "description": "",
+        "line": 17,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "User press on l1 link from menu",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8135347334
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "L1 page is displayed",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 439768199
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "check that Sort by drop-down is present",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143449126
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Change “Sort by” to “Price High to Low”",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2283840221
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Check that products are sorted correctly on the grid",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:112"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6033050876
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2476852523
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/CLP_QV_PDP/PDP.feature",
+    "id": "check-pdp-functionality",
+    "keyword": "Feature",
+    "name": "Check PDP functionality",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "open the site",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12206505162
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "close the newsletter pop-up",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1094691408
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-pdp-functionality;add-product-to-cart-from-clp-pdd",
+        "keyword": "Scenario",
+        "name": "Add product to cart from CLP PDD",
+        "description": "",
+        "line": 6,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "User press on l1 link from menu",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8430753802
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "L1 page is displayed",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 482750184
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user do mousover on first product from grid",
+            "line": 10,
+            "comments": [
+              {
+                "value": "# Then user selects any refinement",
+                "line": 9
+              }
+            ],
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3797818530
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "press on QV button",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 469459715
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on view products details link",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:218"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7931795108
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user is redirected to PDP",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 837743305
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "verify elements on the PDP",
+            "line": 15,
+            "comments": [
+              {
+                "value": "# Then user changed other available options (size/color, etc)",
+                "line": 14
+              }
+            ],
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:187"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1455697959
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 408846737
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/CLP_QV_PDP/QV.feature",
+    "id": "check-qv-functionality",
+    "keyword": "Feature",
+    "name": "Check QV functionality",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "open the site",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14797762288
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "close the newsletter pop-up",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1290327811
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-qv-functionality;add-product-to-cart-from-clp-qv;;2",
+        "keyword": "Scenario Outline",
+        "name": "Add product to cart from CLP QV",
+        "description": "",
+        "line": 16,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "User press on l1 link from menu",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10281272771
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "L1 page is displayed",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 572221713
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user do mousover on first product from grid",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4038013761
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "press on QV button",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 628716263
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user should see QV pop-up displayed",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3183502396
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "verify elements on the QV pop-up",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/LORA Common steps/CLP/CLP.rb:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2614516062
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user verify that Find a store button is displayed",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/Storefront specific steps/CLP/CLP.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 130000603
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1159593182
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
